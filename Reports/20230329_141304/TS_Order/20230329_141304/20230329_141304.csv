@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Order,Chrome 111.0.5563.146,,,2023-03-29 14:13:12,2023-03-29 14:13:49,37.003s,PASSED
+,,,,,,,
+Test Cases/Order Process/Order Item,Chrome 111.0.5563.146,,,2023-03-29 14:13:13,2023-03-29 14:13:49,36.391s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 111.0.5563.146,,,2023-03-29 14:13:13,2023-03-29 14:13:25,11.754s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop""))",Chrome 111.0.5563.146,,,2023-03-29 14:13:25,2023-03-29 14:13:28,2.918s,PASSED
+SamplePageTitle = getWindowTitle(),Chrome 111.0.5563.146,,,2023-03-29 14:13:28,2023-03-29 14:13:28,0.034s,PASSED
+"verifyMatch(SamplePageTitle, ""Katalon Shop – Katalon Ecommerce"", false)",Chrome 111.0.5563.146,,,2023-03-29 14:13:28,2023-03-29 14:13:28,0.022s,PASSED
+delay(5),Chrome 111.0.5563.146,,,2023-03-29 14:13:28,2023-03-29 14:13:33,5.024s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting""))",Chrome 111.0.5563.146,,,2023-03-29 14:13:33,2023-03-29 14:13:33,0.324s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest""))",Chrome 111.0.5563.146,,,2023-03-29 14:13:33,2023-03-29 14:13:36,3.032s,PASSED
+delay(5),Chrome 111.0.5563.146,,,2023-03-29 14:13:36,2023-03-29 14:13:41,5.004s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 3)",Chrome 111.0.5563.146,,,2023-03-29 14:13:41,2023-03-29 14:13:41,0.105s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""))",Chrome 111.0.5563.146,,,2023-03-29 14:13:41,2023-03-29 14:13:45,3.585s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Chrome 111.0.5563.146,,,2023-03-29 14:13:45,2023-03-29 14:13:46,0.625s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next""))",Chrome 111.0.5563.146,,,2023-03-29 14:13:46,2023-03-29 14:13:47,1.535s,PASSED
+"verifyEqual(""2"", ""2"")",Chrome 111.0.5563.146,,,2023-03-29 14:13:47,2023-03-29 14:13:47,0.012s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart""))",Chrome 111.0.5563.146,,,2023-03-29 14:13:47,2023-03-29 14:13:49,1.951s,PASSED

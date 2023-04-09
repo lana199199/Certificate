@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Order,Firefox 110.0,,,2023-03-29 19:35:54,2023-03-29 19:37:12,1m - 17.534s,FAILED
+,,,,,,,
+Test Cases/Order Process/Order Item,Firefox 110.0,,,2023-03-29 19:35:55,2023-03-29 19:36:32,37.014s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Firefox 110.0,,,2023-03-29 19:35:55,2023-03-29 19:36:09,14.048s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop""))",Firefox 110.0,,,2023-03-29 19:36:09,2023-03-29 19:36:12,3.151s,PASSED
+SamplePageTitle = getWindowTitle(),Firefox 110.0,,,2023-03-29 19:36:12,2023-03-29 19:36:12,0.048s,PASSED
+"verifyMatch(SamplePageTitle, ""Katalon Shop – Katalon Ecommerce"", false)",Firefox 110.0,,,2023-03-29 19:36:12,2023-03-29 19:36:12,0.016s,PASSED
+delay(5),Firefox 110.0,,,2023-03-29 19:36:12,2023-03-29 19:36:17,5.019s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting""))",Firefox 110.0,,,2023-03-29 19:36:17,2023-03-29 19:36:18,0.349s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest""))",Firefox 110.0,,,2023-03-29 19:36:18,2023-03-29 19:36:21,3.071s,PASSED
+delay(5),Firefox 110.0,,,2023-03-29 19:36:21,2023-03-29 19:36:26,5.008s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 3)",Firefox 110.0,,,2023-03-29 19:36:26,2023-03-29 19:36:26,0.110s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""))",Firefox 110.0,,,2023-03-29 19:36:26,2023-03-29 19:36:30,4.170s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Firefox 110.0,,,2023-03-29 19:36:30,2023-03-29 19:36:30,0.163s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next""))",Firefox 110.0,,,2023-03-29 19:36:30,2023-03-29 19:36:31,0.286s,PASSED
+"verifyEqual(""2"", ""2"")",Firefox 110.0,,,2023-03-29 19:36:31,2023-03-29 19:36:31,0.012s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart""))",Firefox 110.0,,,2023-03-29 19:36:31,2023-03-29 19:36:32,1.135s,PASSED
+,,,,,,,
+Test Cases/Order Process/Check order,Firefox 110.0,,,2023-03-29 19:36:32,2023-03-29 19:37:12,40.070s,FAILED
+"callTestCase(findTestCase(""Order Process/Order Item""), [:], STOP_ON_FAILURE)",Firefox 110.0,,,2023-03-29 19:36:32,2023-03-29 19:37:06,34.079s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart""))",Firefox 110.0,,,2023-03-29 19:37:06,2023-03-29 19:37:08,2.197s,PASSED
+SamplePageTitle = getWindowTitle(),Firefox 110.0,,,2023-03-29 19:37:08,2023-03-29 19:37:08,0.018s,PASSED
+"verifyMatch(SamplePageTitle, ""Cart – Katalon Shop"", false)",Firefox 110.0,,,2023-03-29 19:37:08,2023-03-29 19:37:08,0.002s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Firefox 110.0,,,2023-03-29 19:37:08,2023-03-29 19:37:08,0.137s,PASSED
+"verifyEqual(""2"", ""2"")",Firefox 110.0,,,2023-03-29 19:37:08,2023-03-29 19:37:08,0.002s,PASSED
+"scrollToElement(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart""), 0)",Firefox 110.0,,,2023-03-29 19:37:08,2023-03-29 19:37:09,0.091s,PASSED
+"click(findTestObject(""Object Repository/a_Change address""))",Firefox 110.0,,,2023-03-29 19:37:09,2023-03-29 19:37:09,0.298s,PASSED
+"click(findTestObject(""Object Repository/span_Vietnam""))",Firefox 110.0,,,2023-03-29 19:37:09,2023-03-29 19:37:10,1.443s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela""))",Firefox 110.0,,,2023-03-29 19:37:10,2023-03-29 19:37:11,0.802s,PASSED
+"setText(findTestObject(""Object Repository/input_Venezuela_calc_shipping_city""), ""SG"")",Firefox 110.0,,,2023-03-29 19:37:11,2023-03-29 19:37:11,0.110s,PASSED
+"setText(findTestObject(""Object Repository/input_Venezuela_calc_shipping_postcode""), ""5000"")",Firefox 110.0,,,2023-03-29 19:37:11,2023-03-29 19:37:11,0.086s,PASSED
+"click(findTestObject(""Object Repository/button_Update""))",Firefox 110.0,,,2023-03-29 19:37:11,2023-03-29 19:37:12,0.296s,PASSED
+"verifyElementText(findTestObject(""Object Repository/p_Shipping to SG, a, 5000, Venezuela""), ""Shipping to SG, 5000, Venezuela."")",Firefox 110.0,,,2023-03-29 19:37:12,2023-03-29 19:37:12,0.251s,FAILED

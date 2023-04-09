@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Remove,Chrome 112.0.0.0,,,2023-04-09 11:29:42,2023-04-09 11:31:20,1m - 38.836s,FAILED
+,,,,,,,
+Test Cases/Order Process/Checkout 03,Chrome 112.0.0.0,,,2023-04-09 11:29:42,2023-04-09 11:31:20,1m - 38.409s,FAILED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-09 11:29:42,2023-04-09 11:29:42,0.023s,PASSED
+"callTestCase(findTestCase(""Order Process/Check order 02""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-09 11:29:42,2023-04-09 11:30:28,45.119s,PASSED
+PageTitle = getWindowTitle(),Chrome 112.0.0.0,,,2023-04-09 11:30:28,2023-04-09 11:30:28,0.009s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_first_name""), ""Eve"")",Chrome 112.0.0.0,,,2023-04-09 11:30:28,2023-04-09 11:30:29,1.506s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_last_name""), ""L"")",Chrome 112.0.0.0,,,2023-04-09 11:30:29,2023-04-09 11:30:30,1.131s,PASSED
+"setText(findTestObject(""Object Repository/input_(optional)_billing_company""), ""Katalon"")",Chrome 112.0.0.0,,,2023-04-09 11:30:30,2023-04-09 11:30:32,1.596s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-09 11:30:32,2023-04-09 11:30:35,3.020s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_address_1""), ""19 Nguyen Thi Thap"")",Chrome 112.0.0.0,,,2023-04-09 11:30:35,2023-04-09 11:30:36,0.818s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-09 11:30:36,2023-04-09 11:30:39,3.008s,PASSED
+"click(findTestObject(""input_(optional)_billing_postcode""))",Chrome 112.0.0.0,,,2023-04-09 11:30:39,2023-04-09 11:30:39,0.481s,PASSED
+"setText(findTestObject(""Object Repository/input_(optional)_billing_postcode""), ""5000"")",Chrome 112.0.0.0,,,2023-04-09 11:30:39,2023-04-09 11:30:40,0.987s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-09 11:30:40,2023-04-09 11:30:43,3.011s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_phone""), ""0359912894"")",Chrome 112.0.0.0,,,2023-04-09 11:30:43,2023-04-09 11:30:44,1.193s,PASSED
+"click(findTestObject(""Object Repository/div_Have a coupon Click here to enter your _f97527""))",Chrome 112.0.0.0,,,2023-04-09 11:30:44,2023-04-09 11:30:45,0.649s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_email""), ""katalonLover@outlook.com"")",Chrome 112.0.0.0,,,2023-04-09 11:30:45,2023-04-09 11:30:46,1.214s,PASSED
+"setText(findTestObject(""Object Repository/textarea_(optional)_order_comments""), ""cash"")",Chrome 112.0.0.0,,,2023-04-09 11:30:46,2023-04-09 11:30:47,0.854s,PASSED
+"click(findTestObject(""Object Repository/button_Place order""))",Chrome 112.0.0.0,,,2023-04-09 11:30:47,2023-04-09 11:30:48,0.685s,PASSED
+"verifyTextPresent(""Cash on delivery"", false)",Chrome 112.0.0.0,,,2023-04-09 11:30:48,2023-04-09 11:30:53,5.276s,PASSED
+"verifyTextPresent(""Ship Your Idea × 2"", false)",Chrome 112.0.0.0,,,2023-04-09 11:30:53,2023-04-09 11:30:53,0.433s,PASSED
+"verifyTextPresent(""$50.00"", false)",Chrome 112.0.0.0,,,2023-04-09 11:30:53,2023-04-09 11:30:54,0.365s,PASSED
+"expectedText = getText(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela""))",Chrome 112.0.0.0,,,2023-04-09 11:30:54,2023-04-09 11:30:54,0.518s,PASSED
+println(expectedText),Chrome 112.0.0.0,,,2023-04-09 11:30:54,2023-04-09 11:30:54,0.001s,PASSED
+"verifyTextPresent(expectedText, false)",Chrome 112.0.0.0,,,2023-04-09 11:30:54,2023-04-09 11:30:55,0.292s,PASSED
+"callTestCase(findTestCase(""Order Process/remove items 04""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-09 11:30:55,2023-04-09 11:31:20,25.739s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-09 11:31:20,2023-04-09 11:31:20,0.002s,PASSED

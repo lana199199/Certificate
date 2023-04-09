@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Remove,Chrome 112.0.0.0,,,2023-04-08 16:34:44,2023-04-08 16:36:43,1m - 58.883s,FAILED
+,,,,,,,
+Test Cases/Order Process/Checkout 03,Chrome 112.0.0.0,,,2023-04-08 16:34:45,2023-04-08 16:35:59,1m - 14.050s,PASSED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-08 16:34:45,2023-04-08 16:34:45,0.026s,PASSED
+"callTestCase(findTestCase(""Order Process/Check order 02""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-08 16:34:45,2023-04-08 16:35:31,45.692s,PASSED
+PageTitle = getWindowTitle(),Chrome 112.0.0.0,,,2023-04-08 16:35:31,2023-04-08 16:35:31,0.007s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_first_name""), ""Eve"")",Chrome 112.0.0.0,,,2023-04-08 16:35:31,2023-04-08 16:35:32,1.573s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_last_name""), ""L"")",Chrome 112.0.0.0,,,2023-04-08 16:35:32,2023-04-08 16:35:33,1.163s,PASSED
+"setText(findTestObject(""Object Repository/input_(optional)_billing_company""), ""Katalon"")",Chrome 112.0.0.0,,,2023-04-08 16:35:33,2023-04-08 16:35:35,1.650s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-08 16:35:35,2023-04-08 16:35:38,3.035s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_address_1""), ""19 Nguyen Thi Thap"")",Chrome 112.0.0.0,,,2023-04-08 16:35:38,2023-04-08 16:35:39,1.014s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-08 16:35:39,2023-04-08 16:35:42,3.010s,PASSED
+"click(findTestObject(""input_(optional)_billing_postcode""))",Chrome 112.0.0.0,,,2023-04-08 16:35:42,2023-04-08 16:35:43,0.498s,PASSED
+"setText(findTestObject(""Object Repository/input_(optional)_billing_postcode""), ""5000"")",Chrome 112.0.0.0,,,2023-04-08 16:35:43,2023-04-08 16:35:44,0.960s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-08 16:35:44,2023-04-08 16:35:47,3.010s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_phone""), ""0359912894"")",Chrome 112.0.0.0,,,2023-04-08 16:35:47,2023-04-08 16:35:48,1.131s,PASSED
+"click(findTestObject(""Object Repository/div_Have a coupon Click here to enter your _f97527""))",Chrome 112.0.0.0,,,2023-04-08 16:35:48,2023-04-08 16:35:48,0.685s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_email""), ""katalonLover@outlook.com"")",Chrome 112.0.0.0,,,2023-04-08 16:35:48,2023-04-08 16:35:50,1.976s,PASSED
+"setText(findTestObject(""Object Repository/textarea_(optional)_order_comments""), ""cash"")",Chrome 112.0.0.0,,,2023-04-08 16:35:50,2023-04-08 16:35:51,0.952s,PASSED
+"click(findTestObject(""Object Repository/button_Place order""))",Chrome 112.0.0.0,,,2023-04-08 16:35:51,2023-04-08 16:35:52,0.699s,PASSED
+"verifyTextPresent(""Cash on delivery"", false)",Chrome 112.0.0.0,,,2023-04-08 16:35:52,2023-04-08 16:35:57,5.199s,PASSED
+"verifyTextPresent(""Ship Your Idea × 2"", false)",Chrome 112.0.0.0,,,2023-04-08 16:35:57,2023-04-08 16:35:58,0.277s,PASSED
+"verifyTextPresent(""$50.00"", false)",Chrome 112.0.0.0,,,2023-04-08 16:35:58,2023-04-08 16:35:58,0.304s,PASSED
+"expectedText = getText(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela""))",Chrome 112.0.0.0,,,2023-04-08 16:35:58,2023-04-08 16:35:58,0.307s,PASSED
+println(expectedText),Chrome 112.0.0.0,,,2023-04-08 16:35:58,2023-04-08 16:35:58,0.001s,PASSED
+"verifyTextPresent(expectedText, false)",Chrome 112.0.0.0,,,2023-04-08 16:35:58,2023-04-08 16:35:59,0.405s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-08 16:35:59,2023-04-08 16:35:59,0.003s,PASSED
+,,,,,,,
+Test Cases/Order Process/remove items 04,Chrome 112.0.0.0,,,2023-04-08 16:35:59,2023-04-08 16:36:43,44.385s,FAILED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-08 16:35:59,2023-04-08 16:35:59,0.002s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-08 16:35:59,2023-04-08 16:36:17,18.166s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart""))",Chrome 112.0.0.0,,,2023-04-08 16:36:17,2023-04-08 16:36:20,3.065s,PASSED
+SamplePageTitle = getWindowTitle(),Chrome 112.0.0.0,,,2023-04-08 16:36:20,2023-04-08 16:36:20,0.012s,PASSED
+"verifyMatch(SamplePageTitle, ""Cart – Katalon Shop"", false)",Chrome 112.0.0.0,,,2023-04-08 16:36:20,2023-04-08 16:36:20,0.004s,PASSED
+delay(10),Chrome 112.0.0.0,,,2023-04-08 16:36:20,2023-04-08 16:36:30,10.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/a_""), 0, CONTINUE_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-08 16:36:30,2023-04-08 16:36:32,1.772s,FAILED
+"click(findTestObject(""Object Repository/a_""))",Chrome 112.0.0.0,,,2023-04-08 16:36:32,2023-04-08 16:36:43,11.142s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-08 16:36:43,2023-04-08 16:36:43,0.001s,PASSED

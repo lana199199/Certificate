@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 111.0.0.0,,,2023-03-26 17:10:39,2023-03-26 17:11:04,24.920s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 111.0.0.0,,,2023-03-26 17:10:39,2023-03-26 17:11:04,24.462s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-26 17:10:40,2023-03-26 17:10:48,8.853s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 111.0.0.0,,,2023-03-26 17:10:48,2023-03-26 17:10:54,5.549s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 111.0.0.0,,,2023-03-26 17:10:54,2023-03-26 17:10:55,0.782s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 111.0.0.0,,,2023-03-26 17:10:55,2023-03-26 17:10:56,1.128s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Chrome 111.0.0.0,,,2023-03-26 17:10:56,2023-03-26 17:10:57,0.615s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Chrome 111.0.0.0,,,2023-03-26 17:10:57,2023-03-26 17:10:57,0.732s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Chrome 111.0.0.0,,,2023-03-26 17:10:57,2023-03-26 17:10:58,0.350s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Chrome 111.0.0.0,,,2023-03-26 17:10:58,2023-03-26 17:11:01,2.880s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-26 17:11:01,2023-03-26 17:11:01,0.506s,PASSED
+"responseString = ""KatalonLover""",Chrome 111.0.0.0,,,2023-03-26 17:11:01,2023-03-26 17:11:01,0.000s,PASSED
+"expectedString = ""katalonlover""",Chrome 111.0.0.0,,,2023-03-26 17:11:01,2023-03-26 17:11:01,0.000s,PASSED
+if (responseString.toUpperCase() == expectedString),Chrome 111.0.0.0,,,2023-03-26 17:11:01,2023-03-26 17:11:01,0.007s,PASSED
+else,Chrome 111.0.0.0,,,2023-03-26 17:11:01,2023-03-26 17:11:04,2.545s,PASSED

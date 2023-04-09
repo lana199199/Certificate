@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Remove,Edge Chromium 112,,,2023-04-08 15:40:50,2023-04-08 15:42:46,1m - 55.559s,FAILED
+,,,,,,,
+Test Cases/Order Process/Checkout 03,Edge Chromium 112,,,2023-04-08 15:40:51,2023-04-08 15:42:24,1m - 33.875s,PASSED
+Start listener action : enableSauceLabs,Edge Chromium 112,,,2023-04-08 15:40:51,2023-04-08 15:40:51,0.022s,PASSED
+"callTestCase(findTestCase(""Order Process/Check order 02""), [:], STOP_ON_FAILURE)",Edge Chromium 112,,,2023-04-08 15:40:51,2023-04-08 15:41:57,1m - 5.751s,PASSED
+PageTitle = getWindowTitle(),Edge Chromium 112,,,2023-04-08 15:41:57,2023-04-08 15:41:57,0.008s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_first_name""), ""Eve"")",Edge Chromium 112,,,2023-04-08 15:41:57,2023-04-08 15:41:58,1.616s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_last_name""), ""L"")",Edge Chromium 112,,,2023-04-08 15:41:58,2023-04-08 15:42:00,1.456s,PASSED
+"setText(findTestObject(""Object Repository/input_(optional)_billing_company""), ""Katalon"")",Edge Chromium 112,,,2023-04-08 15:42:00,2023-04-08 15:42:01,0.889s,PASSED
+delay(3),Edge Chromium 112,,,2023-04-08 15:42:01,2023-04-08 15:42:04,3.028s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_address_1""), ""19 Nguyen Thi Thap"")",Edge Chromium 112,,,2023-04-08 15:42:04,2023-04-08 15:42:05,1.086s,PASSED
+delay(3),Edge Chromium 112,,,2023-04-08 15:42:05,2023-04-08 15:42:08,3.009s,PASSED
+"click(findTestObject(""input_(optional)_billing_postcode""))",Edge Chromium 112,,,2023-04-08 15:42:08,2023-04-08 15:42:08,0.500s,PASSED
+"setText(findTestObject(""Object Repository/input_(optional)_billing_postcode""), ""5000"")",Edge Chromium 112,,,2023-04-08 15:42:08,2023-04-08 15:42:10,1.136s,PASSED
+delay(3),Edge Chromium 112,,,2023-04-08 15:42:10,2023-04-08 15:42:13,3.003s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_phone""), ""0359912894"")",Edge Chromium 112,,,2023-04-08 15:42:13,2023-04-08 15:42:14,1.162s,PASSED
+"click(findTestObject(""Object Repository/div_Have a coupon Click here to enter your _f97527""))",Edge Chromium 112,,,2023-04-08 15:42:14,2023-04-08 15:42:14,0.467s,PASSED
+"setText(findTestObject(""Object Repository/input__billing_email""), ""katalonLover@outlook.com"")",Edge Chromium 112,,,2023-04-08 15:42:14,2023-04-08 15:42:16,1.836s,PASSED
+"setText(findTestObject(""Object Repository/textarea_(optional)_order_comments""), ""cash"")",Edge Chromium 112,,,2023-04-08 15:42:16,2023-04-08 15:42:17,0.883s,PASSED
+"click(findTestObject(""Object Repository/button_Place order""))",Edge Chromium 112,,,2023-04-08 15:42:17,2023-04-08 15:42:18,0.599s,PASSED
+"verifyTextPresent(""Cash on delivery"", false)",Edge Chromium 112,,,2023-04-08 15:42:18,2023-04-08 15:42:23,5.182s,PASSED
+"verifyTextPresent(""Ship Your Idea × 2"", false)",Edge Chromium 112,,,2023-04-08 15:42:23,2023-04-08 15:42:23,0.299s,PASSED
+"verifyTextPresent(""$50.00"", false)",Edge Chromium 112,,,2023-04-08 15:42:23,2023-04-08 15:42:24,0.501s,PASSED
+"expectedText = getText(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela""))",Edge Chromium 112,,,2023-04-08 15:42:24,2023-04-08 15:42:24,0.533s,PASSED
+println(expectedText),Edge Chromium 112,,,2023-04-08 15:42:24,2023-04-08 15:42:24,0.001s,PASSED
+"verifyTextPresent(expectedText, false)",Edge Chromium 112,,,2023-04-08 15:42:24,2023-04-08 15:42:24,0.394s,PASSED
+Start listener action : autoUpdateJobStatus,Edge Chromium 112,,,2023-04-08 15:42:24,2023-04-08 15:42:24,0.003s,PASSED
+,,,,,,,
+Test Cases/Order Process/remove items 04,Edge Chromium 112,,,2023-04-08 15:42:24,2023-04-08 15:42:46,21.234s,FAILED
+Start listener action : enableSauceLabs,Edge Chromium 112,,,2023-04-08 15:42:25,2023-04-08 15:42:25,0.002s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Edge Chromium 112,,,2023-04-08 15:42:25,2023-04-08 15:42:43,18.488s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart""))",Edge Chromium 112,,,2023-04-08 15:42:43,2023-04-08 15:42:45,2.226s,PASSED
+SamplePageTitle = getWindowTitle(),Edge Chromium 112,,,2023-04-08 15:42:45,2023-04-08 15:42:45,0.014s,PASSED
+"click(findTestObject(""Object Repository/a_Cart""))",Edge Chromium 112,,,2023-04-08 15:42:45,2023-04-08 15:42:46,0.274s,FAILED
+Start listener action : autoUpdateJobStatus,Edge Chromium 112,,,2023-04-08 15:42:46,2023-04-08 15:42:46,0.004s,PASSED

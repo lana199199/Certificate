@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Remove,Chrome 112.0.0.0,,,2023-04-09 11:36:14,2023-04-09 11:36:41,27.135s,FAILED
+,,,,,,,
+Test Cases/Order Process/Checkout 03,Chrome 112.0.0.0,,,2023-04-09 11:36:14,2023-04-09 11:36:41,26.693s,FAILED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-09 11:36:14,2023-04-09 11:36:14,0.022s,PASSED
+"callTestCase(findTestCase(""Order Process/Check order 02""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-09 11:36:15,2023-04-09 11:36:41,26.167s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-09 11:36:41,2023-04-09 11:36:41,0.002s,PASSED

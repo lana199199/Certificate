@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Order" time="77.534" tests="2" failures="1" errors="0">
+   <testsuite name="TS_Order" tests="2" failures="1" errors="0" time="77.534" skipped="0" timestamp="2023-03-29 19:35:54" hostname="thanh.pnguyen - 10.10.35.73" id="Test Suites/TS_Order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/Saleforces Portal - Certificate/Reports/20230329_193537/TS_Order/20230329_193537"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/Saleforces Portal - Certificate/Reports/20230329_193537/TS_Order/20230329_193537/execution0.log"/>
+         <property name="attachments" value="/Users/thanh.pnguyen/Documents/Katalon/Saleforces Portal - Certificate/Reports/20230329_193537/TS_Order/20230329_193537/1680093432180.png, /Users/thanh.pnguyen/Documents/Katalon/Saleforces Portal - Certificate/Reports/20230329_193537/TS_Order/20230329_193537/1680093432274.png"/>
+         <property name="hostName" value="thanh.pnguyen - 10.10.35.73"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Firefox 110.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="2956f1c3-e109-44cd-922a-f0dff1075a49"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Order Process/Order Item" time="37.014" classname="Test Cases/Order Process/Order Item" status="PASSED">
+         <system-out><![CDATA[2023-03-29 19:35:55 - [TEST_CASE][PASSED] - Test Cases/Order Process/Order Item: Test Cases/Order Process/Order Item
+
+2023-03-29 19:35:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-03-29 19:35:55 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-03-29 19:35:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-29 19:35:56 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2023-03-29 19:35:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-29 19:36:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-29 19:36:01 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-03-29 19:36:06 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-03-29 19:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-03-29 19:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-03-29 19:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-03-29 19:36:07 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-03-29 19:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-03-29 19:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-03-29 19:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-03-29 19:36:07 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-03-29 19:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-03-29 19:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-03-29 19:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-03-29 19:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-03-29 19:36:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-03-29 19:36:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-03-29 19:36:09 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-03-29 19:36:09 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-03-29 19:36:09 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-03-29 19:36:09 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-03-29 19:36:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-03-29 19:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-03-29 19:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-03-29 19:36:12 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-03-29 19:36:12 - [MESSAGE][PASSED] - Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-03-29 19:36:12 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Katalon Shop – Katalon Ecommerce", false): Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-03-29 19:36:12 - [MESSAGE][PASSED] - Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-03-29 19:36:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-29 19:36:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-29 19:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-03-29 19:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-03-29 19:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-03-29 19:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-03-29 19:36:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-29 19:36:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-29 19:36:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 3): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-03-29 19:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-03-29 19:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-03-29 19:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-03-29 19:36:30 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-03-29 19:36:30 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-03-29 19:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-03-29 19:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-03-29 19:36:31 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-03-29 19:36:31 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-03-29 19:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-03-29 19:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order Process/Check order" time="40.07" classname="Test Cases/Order Process/Check order" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Order Process/Check order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-03-29 19:36:32 - [TEST_CASE][FAILED] - Test Cases/Order Process/Check order: Test Cases/Order Process/Check order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-03-29 19:36:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/Order Item"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/Order Item' successfully
+
+2023-03-29 19:36:32 - [TEST_CASE][PASSED] - Test Cases/Order Process/Order Item: Test Cases/Order Process/Order Item
+
+2023-03-29 19:36:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-03-29 19:36:32 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-03-29 19:36:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-29 19:36:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-29 19:36:33 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2023-03-29 19:36:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-29 19:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-29 19:36:34 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-03-29 19:36:39 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-03-29 19:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-03-29 19:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-03-29 19:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-03-29 19:36:40 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-03-29 19:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-03-29 19:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-03-29 19:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-03-29 19:36:40 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-03-29 19:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-03-29 19:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-03-29 19:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-03-29 19:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-03-29 19:36:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-03-29 19:36:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-03-29 19:36:42 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-03-29 19:36:42 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-03-29 19:36:42 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-03-29 19:36:42 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-03-29 19:36:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-03-29 19:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-03-29 19:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-03-29 19:36:45 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-03-29 19:36:45 - [MESSAGE][PASSED] - Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-03-29 19:36:45 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Katalon Shop – Katalon Ecommerce", false): Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-03-29 19:36:45 - [MESSAGE][PASSED] - Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-03-29 19:36:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-29 19:36:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-29 19:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-03-29 19:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-03-29 19:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-03-29 19:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-03-29 19:36:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-29 19:36:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-29 19:36:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 3): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-03-29 19:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-03-29 19:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-03-29 19:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-03-29 19:37:05 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-03-29 19:37:05 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-03-29 19:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-03-29 19:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-03-29 19:37:05 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-03-29 19:37:05 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-03-29 19:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-03-29 19:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-03-29 19:37:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/Order Item' successfully
+
+2023-03-29 19:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-03-29 19:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-03-29 19:37:08 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Cart – Katalon Shop'
+
+2023-03-29 19:37:08 - [MESSAGE][PASSED] - Current window's title is: 'Cart – Katalon Shop'
+
+2023-03-29 19:37:08 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false): Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-03-29 19:37:08 - [MESSAGE][PASSED] - Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-03-29 19:37:08 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-03-29 19:37:08 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-03-29 19:37:08 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-03-29 19:37:08 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-03-29 19:37:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart"), 0): Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-03-29 19:37:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-29 19:37:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-03-29 19:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Change address")): Object: 'Object Repository/a_Change address' is clicked on
+
+2023-03-29 19:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Change address' is clicked on
+
+2023-03-29 19:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/span_Vietnam")): Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-03-29 19:37:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[@id='billing_country_field']/span/span/span/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-29 19:37:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/span_Vietnam'. Try using Self-healing.
+
+2023-03-29 19:37:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/span_Vietnam' was broken. Propose an alternative one: '//span/span/span/span'.
+
+2023-03-29 19:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-03-29 19:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-03-29 19:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-03-29 19:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_city"), "SG"): Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-03-29 19:37:11 - [MESSAGE][PASSED] - Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-03-29 19:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_postcode"), "5000"): Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-03-29 19:37:11 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-03-29 19:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Update")): Object: 'Object Repository/button_Update' is clicked on
+
+2023-03-29 19:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Update' is clicked on
+
+2023-03-29 19:37:12 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/p_Shipping to SG, a, 5000, Venezuela"), "Shipping to SG, 5000, Venezuela."): Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-03-29 19:37:12 - [MESSAGE][FAILED] - Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+)
+[[ATTACHMENT|/Users/thanh.pnguyen/Documents/Katalon/Saleforces Portal - Certificate/Reports/20230329_193537/TS_Order/20230329_193537/1680093432180.png]]
+
+2023-03-29 19:37:12 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/thanh.pnguyen/Documents/Katalon/Saleforces Portal - Certificate/Reports/20230329_193537/TS_Order/20230329_193537/1680093432274.png]]]]></system-out>
+         <system-err><![CDATA[2023-03-29 19:36:32 - [TEST_CASE][FAILED] - Test Cases/Order Process/Check order: Test Cases/Order Process/Check order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-29 19:35:54 - [TEST_SUITE][FAILED] - TS_Order: Test Cases/Order Process/Check order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-03-29 19:35:54 - [TEST_SUITE][FAILED] - TS_Order: Test Cases/Order Process/Check order FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Check order.run(Check order:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680093337487.run(TempTestSuite1680093337487.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Shipping to 19 Nguyen Thi Thap, SG, Vietnam.' and expected text 'Shipping to SG, 5000, Venezuela.' of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

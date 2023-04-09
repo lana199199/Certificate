@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/a_Change address",
+      "brokenLocator": "//article[@id\u003d\u0027post-8\u0027]/div/div/div[2]/div[2]/table/tbody/tr[2]/td/form/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Change address\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230329_163554/TS_Order/20230329_163554/Object Repository/a_Change address_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/p_Shipping to SG, a, 5000, Venezuela",
+      "brokenLocator": "//article[@id\u003d\u0027post-8\u0027]/div/div/div[2]/div[2]/table/tbody/tr[2]/td/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$\u0027])[7]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230329_163554/TS_Order/20230329_163554/Object Repository/p_Shipping to SG, a, 5000, Venezuela_neighbor.png"
+    }
+  ]
+}

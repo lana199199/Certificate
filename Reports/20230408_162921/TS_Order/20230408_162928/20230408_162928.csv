@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Order,Chrome 112.0.0.0,,,2023-04-08 16:30:07,2023-04-08 16:30:35,28.319s,FAILED
+,,,,,,,
+Test Cases/Order Process/Order Item 01,Chrome 112.0.0.0,,,2023-04-08 16:30:07,2023-04-08 16:30:22,15.381s,FAILED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-08 16:30:07,2023-04-08 16:30:07,0.024s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-08 16:30:07,2023-04-08 16:30:22,14.915s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-08 16:30:22,2023-04-08 16:30:22,0.001s,PASSED
+,,,,,,,
+Test Cases/Order Process/Check order 02,Chrome 112.0.0.0,,,2023-04-08 16:30:22,2023-04-08 16:30:35,12.492s,FAILED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-08 16:30:22,2023-04-08 16:30:22,0.001s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-08 16:30:23,2023-04-08 16:30:35,12.224s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-08 16:30:35,2023-04-08 16:30:35,0.001s,PASSED

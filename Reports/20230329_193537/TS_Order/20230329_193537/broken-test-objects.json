@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/span_Vietnam",
+      "brokenLocator": "//p[@id\u003d\u0027billing_country_field\u0027]/span/span/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230329_193537/TS_Order/20230329_193537/Object Repository/span_Vietnam_position.png"
+    }
+  ]
+}

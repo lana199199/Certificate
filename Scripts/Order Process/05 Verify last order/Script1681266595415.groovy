@@ -19,12 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyTextPresent('Cash on delivery', false)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent('Ship Your Idea × 2', false)
 
+WebUI.delay(3)
+
 WebUI.verifyTextPresent('$50.00', false)
+
+WebUI.delay(3)
 
 expectedText = WebUI.getText(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela'))
 
 println(expectedText)
 
 WebUI.verifyTextPresent(expectedText, false)
+

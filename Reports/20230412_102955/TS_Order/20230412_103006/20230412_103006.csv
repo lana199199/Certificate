@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Order,Chrome 112.0.5615.49,,,2023-04-12 10:31:05,2023-04-12 10:33:00,1m - 55.710s,PASSED
+,,,,,,,
+Test Cases/Order Process/Order Item 01,Chrome 112.0.5615.49,,,2023-04-12 10:31:05,2023-04-12 10:31:47,42.510s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.5615.49,,,2023-04-12 10:31:05,2023-04-12 10:31:21,15.570s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop""))",Chrome 112.0.5615.49,,,2023-04-12 10:31:21,2023-04-12 10:31:25,3.743s,PASSED
+SamplePageTitle = getWindowTitle(),Chrome 112.0.5615.49,,,2023-04-12 10:31:25,2023-04-12 10:31:25,0.057s,PASSED
+"verifyMatch(SamplePageTitle, ""Katalon Shop – Katalon Ecommerce"", false)",Chrome 112.0.5615.49,,,2023-04-12 10:31:25,2023-04-12 10:31:25,0.034s,PASSED
+delay(5),Chrome 112.0.5615.49,,,2023-04-12 10:31:25,2023-04-12 10:31:30,5.026s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting""))",Chrome 112.0.5615.49,,,2023-04-12 10:31:30,2023-04-12 10:31:30,0.360s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest""))",Chrome 112.0.5615.49,,,2023-04-12 10:31:30,2023-04-12 10:31:33,3.053s,PASSED
+delay(5),Chrome 112.0.5615.49,,,2023-04-12 10:31:33,2023-04-12 10:31:38,5.013s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 3)",Chrome 112.0.5615.49,,,2023-04-12 10:31:38,2023-04-12 10:31:38,0.118s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""))",Chrome 112.0.5615.49,,,2023-04-12 10:31:38,2023-04-12 10:31:43,4.998s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Chrome 112.0.5615.49,,,2023-04-12 10:31:43,2023-04-12 10:31:44,1.119s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next""))",Chrome 112.0.5615.49,,,2023-04-12 10:31:44,2023-04-12 10:31:45,0.929s,PASSED
+"verifyEqual(""2"", ""2"")",Chrome 112.0.5615.49,,,2023-04-12 10:31:45,2023-04-12 10:31:45,0.011s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart""))",Chrome 112.0.5615.49,,,2023-04-12 10:31:45,2023-04-12 10:31:47,1.917s,PASSED
+closeBrowser(),Chrome 112.0.5615.49,,,2023-04-12 10:31:47,2023-04-12 10:31:47,0.116s,PASSED
+,,,,,,,
+Test Cases/Order Process/Check order 02,Chrome 112.0.5615.49,,,2023-04-12 10:31:47,2023-04-12 10:33:00,1m - 12.754s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.5615.49,,,2023-04-12 10:31:48,2023-04-12 10:32:01,12.797s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart""))",Chrome 112.0.5615.49,,,2023-04-12 10:32:01,2023-04-12 10:32:04,3.662s,PASSED
+SamplePageTitle = getWindowTitle(),Chrome 112.0.5615.49,,,2023-04-12 10:32:04,2023-04-12 10:32:04,0.009s,PASSED
+"verifyMatch(SamplePageTitle, ""Cart – Katalon Shop"", false)",Chrome 112.0.5615.49,,,2023-04-12 10:32:04,2023-04-12 10:32:04,0.004s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 5)",Chrome 112.0.5615.49,,,2023-04-12 10:32:04,2023-04-12 10:32:04,0.091s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Chrome 112.0.5615.49,,,2023-04-12 10:32:04,2023-04-12 10:32:05,0.389s,PASSED
+"verifyEqual(""2"", ""2"")",Chrome 112.0.5615.49,,,2023-04-12 10:32:05,2023-04-12 10:32:05,0.002s,PASSED
+"scrollToElement(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart""), 0)",Chrome 112.0.5615.49,,,2023-04-12 10:32:05,2023-04-12 10:32:05,0.334s,PASSED
+"callTestCase(findTestCase(""Order Process/03 Change address""), [:], STOP_ON_FAILURE)",Chrome 112.0.5615.49,,,2023-04-12 10:32:05,2023-04-12 10:32:30,24.949s,PASSED
+"callTestCase(findTestCase(""Order Process/Checkout 04""), [:], STOP_ON_FAILURE)",Chrome 112.0.5615.49,,,2023-04-12 10:32:30,2023-04-12 10:33:00,30.190s,PASSED

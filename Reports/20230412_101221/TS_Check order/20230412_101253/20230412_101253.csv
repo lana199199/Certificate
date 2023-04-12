@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Check order,Chrome 112.0.5615.49,,,2023-04-12 10:15:25,2023-04-12 10:15:52,26.685s,FAILED
+,,,,,,,
+Test Cases/Order Process/Check order 02,Chrome 112.0.5615.49,,,2023-04-12 10:15:26,2023-04-12 10:15:52,26.244s,FAILED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.5615.49,,,2023-04-12 10:15:26,2023-04-12 10:15:40,13.761s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart""))",Chrome 112.0.5615.49,,,2023-04-12 10:15:40,2023-04-12 10:15:42,2.135s,PASSED
+SamplePageTitle = getWindowTitle(),Chrome 112.0.5615.49,,,2023-04-12 10:15:42,2023-04-12 10:15:42,0.043s,PASSED
+"verifyMatch(SamplePageTitle, ""Cart – Katalon Shop"", false)",Chrome 112.0.5615.49,,,2023-04-12 10:15:42,2023-04-12 10:15:42,0.036s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 5)",Chrome 112.0.5615.49,,,2023-04-12 10:15:42,2023-04-12 10:15:51,9.229s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Chrome 112.0.5615.49,,,2023-04-12 10:15:51,2023-04-12 10:15:52,0.600s,FAILED

@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TS_Order,Chrome 111.0.5563.146,,,2023-03-29 14:24:49,2023-03-29 14:24:59,9.219s,FAILED
-,,,,,,,
-Test Cases/Order Process/Order Item,Chrome 111.0.5563.146,,,2023-03-29 14:24:50,2023-03-29 14:24:59,8.757s,FAILED
-"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 111.0.5563.146,,,2023-03-29 14:24:50,2023-03-29 14:24:59,8.236s,FAILED

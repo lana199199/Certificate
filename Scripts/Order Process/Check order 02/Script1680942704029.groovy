@@ -25,6 +25,9 @@ SamplePageTitle = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(SamplePageTitle, 'Cart – Katalon Shop', false)
 
+WebUI.waitForElementPresent(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail'), 
+    5)
+
 WebUI.verifyTextPresent('Ship Your Idea', false)
 
 WebUI.verifyEqual('2', '2')
@@ -33,4 +36,6 @@ WebUI.scrollToElement(findTestObject('Page_My account  Katalon Shop/Page_Katalon
     0)
 
 WebUI.callTestCase(findTestCase('Order Process/03 Change address'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Order Process/Checkout 04'), [:], FailureHandling.STOP_ON_FAILURE)
 

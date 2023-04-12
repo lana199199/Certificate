@@ -1,0 +1,156 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Order Process/Check order 02"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+4
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://cms.demo.katalon.com/my-account/")
+
+5
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Page_My account  Katalon Shop/input__username"))
+
+6
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Page_My account  Katalon Shop/input__username"), username)
+
+7
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Page_My account  Katalon Shop/input__password"))
+
+8
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Page_My account  Katalon Shop/input__password"), password)
+
+9
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_My account  Katalon Shop/input__rememberme"))
+
+10
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_My account  Katalon Shop/button_Log in"))
+
+11
+00:00:00,000 --> 00:00:00,000
+33. getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE)
+
+12
+00:00:00,000 --> 00:00:00,000
+37. responseString = "KatalonLover"
+
+13
+00:00:00,000 --> 00:00:00,000
+41. expectedString = "katalonlover"
+
+14
+00:00:00,000 --> 00:00:00,000
+45. if (responseString.toLowerCase() == expectedString)
+
+15
+00:00:00,000 --> 00:00:00,000
+1. println("Response is correct")
+
+16
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart"))
+
+17
+00:00:00,000 --> 00:00:00,000
+9. SamplePageTitle = getWindowTitle()
+
+18
+00:00:00,000 --> 00:00:00,000
+13. verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false)
+
+19
+00:00:00,000 --> 00:00:00,000
+17. waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 5)
+
+20
+00:00:00,000 --> 00:00:00,000
+21. verifyTextPresent("Ship Your Idea", false)
+
+21
+00:00:00,000 --> 00:00:00,000
+25. verifyEqual("2", "2")
+
+22
+00:00:00,000 --> 00:00:00,000
+29. scrollToElement(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart"), 0)
+
+23
+00:00:00,000 --> 00:00:00,000
+33. callTestCase(findTestCase("Order Process/03 Change address"), [:], STOP_ON_FAILURE)
+
+24
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("Object Repository/a_Change address"))
+
+25
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/span_Vietnam"))
+
+26
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela"))
+
+27
+00:00:00,000 --> 00:00:00,000
+13. delay(3)
+
+28
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_state"), "ff")
+
+29
+00:00:00,000 --> 00:00:00,000
+21. delay(3)
+
+30
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_city"), "SG")
+
+31
+00:00:00,000 --> 00:00:00,000
+29. delay(3)
+
+32
+00:00:00,000 --> 00:00:00,000
+33. setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_postcode"), "5000")
+
+33
+00:00:00,000 --> 00:00:00,000
+37. delay(5)
+
+34
+00:00:00,000 --> 00:00:00,000
+41. click(findTestObject("Object Repository/button_Update"))
+
+35
+00:00:00,000 --> 00:00:00,000
+45. delay(5)
+
+36
+00:00:00,000 --> 00:00:00,000
+49. verifyElementText(findTestObject("Object Repository/p_Shipping to SG, a, 5000, Venezuela"), "Shipping to SG, ff, 5000, Venezuela.")
+
+37
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout"))
+
+38
+00:00:00,000 --> 00:00:00,000
+37. closeBrowser()
+
+39
+00:00:00,000 --> 00:00:00,000
+5. PageTitle = getWindowTitle()
+

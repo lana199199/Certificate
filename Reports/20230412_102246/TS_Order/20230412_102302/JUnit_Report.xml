@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Order" time="115.175" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Order" tests="2" failures="0" errors="0" time="115.175" skipped="0" timestamp="2023-04-12 10:23:54" hostname="thanh.pnguyen - 10.10.34.184" id="Test Suites/TS_Order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/Certificate/Reports/20230412_102246/TS_Order/20230412_102302"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/Certificate/Reports/20230412_102246/TS_Order/20230412_102302/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanh.pnguyen - 10.10.34.184"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 112.0.5615.49"/>
+         <property name="hostAddress" value="10.10.34.184"/>
+         <property name="sessionId" value="c0685d97afcc35f195b1a34412298bd8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Order Process/Order Item 01" time="40.968" classname="Test Cases/Order Process/Order Item 01" status="PASSED">
+         <system-out><![CDATA[2023-04-12 10:23:54 - [TEST_CASE][PASSED] - Test Cases/Order Process/Order Item 01: Test Cases/Order Process/Order Item 01
+
+2023-04-12 10:23:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:23:55 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-04-12 10:23:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-12 10:23:55 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-12 10:23:55 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1152,864, --no-sandbox]']
+
+2023-04-12 10:23:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-12 10:24:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-12 10:24:01 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:24:06 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:24:07 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:24:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:24:07 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:24:10 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:24:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:24:10 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-04-12 10:24:10 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-04-12 10:24:10 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-04-12 10:24:10 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-04-12 10:24:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-04-12 10:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-04-12 10:24:13 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-04-12 10:24:13 - [MESSAGE][PASSED] - Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-04-12 10:24:13 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Katalon Shop – Katalon Ecommerce", false): Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-04-12 10:24:13 - [MESSAGE][PASSED] - Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-04-12 10:24:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:24:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-04-12 10:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-04-12 10:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-04-12 10:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-04-12 10:24:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:24:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:24:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 3): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-04-12 10:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-04-12 10:24:31 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:24:32 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-04-12 10:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-04-12 10:24:33 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:24:33 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:24:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-04-12 10:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-04-12 10:24:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-12 10:24:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order Process/Check order 02" time="73.657" classname="Test Cases/Order Process/Check order 02" status="PASSED">
+         <system-out><![CDATA[2023-04-12 10:24:35 - [TEST_CASE][PASSED] - Test Cases/Order Process/Check order 02: Test Cases/Order Process/Check order 02
+
+2023-04-12 10:24:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:24:36 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-04-12 10:24:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-12 10:24:36 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-12 10:24:36 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1152,864, --no-sandbox]']
+
+2023-04-12 10:24:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-12 10:24:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-12 10:24:39 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:24:43 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:24:44 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:24:44 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:24:47 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:24:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:24:48 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-04-12 10:24:48 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-04-12 10:24:48 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-04-12 10:24:48 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-04-12 10:24:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:24:51 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:24:51 - [MESSAGE][PASSED] - Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:24:51 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false): Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:24:51 - [MESSAGE][PASSED] - Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:24:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 5): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:24:51 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:24:52 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:24:52 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:24:52 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:24:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart"), 0): Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-04-12 10:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-12 10:24:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-04-12 10:24:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/03 Change address"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/03 Change address' successfully
+
+2023-04-12 10:24:52 - [TEST_CASE][PASSED] - Test Cases/Order Process/03 Change address: Test Cases/Order Process/03 Change address
+
+2023-04-12 10:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Change address")): Object: 'Object Repository/a_Change address' is clicked on
+
+2023-04-12 10:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Change address' is clicked on
+
+2023-04-12 10:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/span_Vietnam")): Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-04-12 10:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-04-12 10:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-04-12 10:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-04-12 10:24:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:24:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:24:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_state"), "ff"): Text 'ff' is set on object 'Object Repository/input_Venezuela_calc_shipping_state'
+
+2023-04-12 10:24:58 - [MESSAGE][PASSED] - Text 'ff' is set on object 'Object Repository/input_Venezuela_calc_shipping_state'
+
+2023-04-12 10:24:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_city"), "SG"): Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-04-12 10:25:01 - [MESSAGE][PASSED] - Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-04-12 10:25:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_postcode"), "5000"): Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-04-12 10:25:04 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-04-12 10:25:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:25:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Update")): Object: 'Object Repository/button_Update' is clicked on
+
+2023-04-12 10:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Update' is clicked on
+
+2023-04-12 10:25:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:25:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:25:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/p_Shipping to SG, a, 5000, Venezuela"), "Shipping to SG, ff, 5000, Venezuela."): Actual text and expected text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are matched.
+
+2023-04-12 10:25:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are matched.
+
+2023-04-12 10:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2023-04-12 10:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2023-04-12 10:25:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/03 Change address' successfully
+
+2023-04-12 10:25:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/Checkout 04"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/Checkout 04' successfully
+
+2023-04-12 10:25:18 - [TEST_CASE][PASSED] - Test Cases/Order Process/Checkout 04: Test Cases/Order Process/Checkout 04
+
+2023-04-12 10:25:18 - [TEST_STEP][PASSED] - PageTitle = getWindowTitle(): Current window's title is: 'Checkout – Katalon Shop'
+
+2023-04-12 10:25:18 - [MESSAGE][PASSED] - Current window's title is: 'Checkout – Katalon Shop'
+
+2023-04-12 10:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input__billing_first_name"), "Eve"): Text 'Eve' is set on object 'Object Repository/input__billing_first_name'
+
+2023-04-12 10:25:18 - [MESSAGE][PASSED] - Text 'Eve' is set on object 'Object Repository/input__billing_first_name'
+
+2023-04-12 10:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input__billing_last_name"), "L"): Text 'L' is set on object 'Object Repository/input__billing_last_name'
+
+2023-04-12 10:25:19 - [MESSAGE][PASSED] - Text 'L' is set on object 'Object Repository/input__billing_last_name'
+
+2023-04-12 10:25:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_(optional)_billing_company"), "Katalon"): Text 'Katalon' is set on object 'Object Repository/input_(optional)_billing_company'
+
+2023-04-12 10:25:19 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/input_(optional)_billing_company'
+
+2023-04-12 10:25:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input__billing_address_1"), "19 Nguyen Thi Thap"): Text '19 Nguyen Thi Thap' is set on object 'Object Repository/input__billing_address_1'
+
+2023-04-12 10:25:22 - [MESSAGE][PASSED] - Text '19 Nguyen Thi Thap' is set on object 'Object Repository/input__billing_address_1'
+
+2023-04-12 10:25:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:25 - [TEST_STEP][PASSED] - click(findTestObject("input_(optional)_billing_postcode")): Object: 'Object Repository/input_(optional)_billing_postcode' is clicked on
+
+2023-04-12 10:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/input_(optional)_billing_postcode' is clicked on
+
+2023-04-12 10:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_(optional)_billing_postcode"), "5000"): Text '5000' is set on object 'Object Repository/input_(optional)_billing_postcode'
+
+2023-04-12 10:25:25 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/input_(optional)_billing_postcode'
+
+2023-04-12 10:25:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input__billing_phone"), "0359912894"): Text '0359912894' is set on object 'Object Repository/input__billing_phone'
+
+2023-04-12 10:25:29 - [MESSAGE][PASSED] - Text '0359912894' is set on object 'Object Repository/input__billing_phone'
+
+2023-04-12 10:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/div_Have a coupon Click here to enter your _f97527")): Object: 'Object Repository/div_Have a coupon Click here to enter your _f97527' is clicked on
+
+2023-04-12 10:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Have a coupon Click here to enter your _f97527' is clicked on
+
+2023-04-12 10:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input__billing_email"), "katalonLover@outlook.com"): Text 'katalonLover@outlook.com' is set on object 'Object Repository/input__billing_email'
+
+2023-04-12 10:25:29 - [MESSAGE][PASSED] - Text 'katalonLover@outlook.com' is set on object 'Object Repository/input__billing_email'
+
+2023-04-12 10:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/textarea_(optional)_order_comments"), "cash"): Text 'cash' is set on object 'Object Repository/textarea_(optional)_order_comments'
+
+2023-04-12 10:25:29 - [MESSAGE][PASSED] - Text 'cash' is set on object 'Object Repository/textarea_(optional)_order_comments'
+
+2023-04-12 10:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Place order")): Object: 'Object Repository/button_Place order' is clicked on
+
+2023-04-12 10:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Place order' is clicked on
+
+2023-04-12 10:25:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:25:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:25:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/05 Verify last order"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/05 Verify last order' successfully
+
+2023-04-12 10:25:34 - [TEST_CASE][PASSED] - Test Cases/Order Process/05 Verify last order: Test Cases/Order Process/05 Verify last order
+
+2023-04-12 10:25:35 - [TEST_STEP][PASSED] - verifyTextPresent("Cash on delivery", false): Text 'Cash on delivery' is present on page 
+
+2023-04-12 10:25:35 - [MESSAGE][PASSED] - Text 'Cash on delivery' is present on page 
+
+2023-04-12 10:25:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:38 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea × 2", false): Text 'Ship Your Idea × 2' is present on page 
+
+2023-04-12 10:25:38 - [MESSAGE][PASSED] - Text 'Ship Your Idea × 2' is present on page 
+
+2023-04-12 10:25:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:41 - [TEST_STEP][PASSED] - verifyTextPresent("$50.00", false): Text '$50.00' is present on page 
+
+2023-04-12 10:25:41 - [MESSAGE][PASSED] - Text '$50.00' is present on page 
+
+2023-04-12 10:25:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:25:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:25:44 - [TEST_STEP][PASSED] - expectedText = getText(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela")): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela' is: 'Eve L
+Katalon
+19 Nguyen Thi Thap
+SG
+ff
+5000
+Venezuela'
+
+2023-04-12 10:25:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela' is: 'Eve L
+Katalon
+19 Nguyen Thi Thap
+SG
+ff
+5000
+Venezuela'
+
+2023-04-12 10:25:44 - [TEST_STEP][PASSED] - println(expectedText): null
+
+2023-04-12 10:25:44 - [TEST_STEP][PASSED] - verifyTextPresent(expectedText, false): Text 'Eve L
+Katalon
+19 Nguyen Thi Thap
+SG
+ff
+5000
+Venezuela' is present on page 
+
+2023-04-12 10:25:44 - [MESSAGE][PASSED] - Text 'Eve L
+Katalon
+19 Nguyen Thi Thap
+SG
+ff
+5000
+Venezuela' is present on page 
+
+2023-04-12 10:25:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/05 Verify last order' successfully
+
+2023-04-12 10:25:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/06 remove items"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/06 remove items' successfully
+
+2023-04-12 10:25:44 - [TEST_CASE][PASSED] - Test Cases/Order Process/06 remove items: Test Cases/Order Process/06 remove items
+
+2023-04-12 10:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:25:46 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:25:46 - [MESSAGE][PASSED] - Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:25:46 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false): Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:25:46 - [MESSAGE][PASSED] - Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Return to shop")): Object: 'Object Repository/a_Return to shop' is clicked on
+
+2023-04-12 10:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Return to shop' is clicked on
+
+2023-04-12 10:25:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/06 remove items' successfully
+
+2023-04-12 10:25:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/Checkout 04' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-12 10:23:54 - [TEST_SUITE][PASSED] - TS_Order: Test Cases/Order Process/Check order 02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

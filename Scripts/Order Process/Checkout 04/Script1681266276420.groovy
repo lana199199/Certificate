@@ -19,8 +19,6 @@ import org.eclipse.persistence.jpa.jpql.Assert as Assert
 import org.openqa.selenium.Keys as Keys
 
 //import static org.testng.Assert.assertEquals;
-WebUI.callTestCase(findTestCase('Order Process/Check order 02'), [:], FailureHandling.STOP_ON_FAILURE)
-
 PageTitle = WebUI.getWindowTitle()
 
 WebUI.setText(findTestObject('Object Repository/input__billing_first_name'), 'Eve')
@@ -50,6 +48,8 @@ WebUI.setText(findTestObject('Object Repository/input__billing_email'), 'katalon
 WebUI.setText(findTestObject('Object Repository/textarea_(optional)_order_comments'), 'cash')
 
 WebUI.click(findTestObject('Object Repository/button_Place order'))
+
+WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('Order Process/05 Verify last order'), [:], FailureHandling.STOP_ON_FAILURE)
 

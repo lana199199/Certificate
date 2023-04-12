@@ -27,14 +27,21 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/input_Venezuela_calc_shipping_state'), 'ff')
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/input_Venezuela_calc_shipping_city'), 'SG')
 
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/input_Venezuela_calc_shipping_postcode'), '5000')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/button_Update'))
+
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/p_Shipping to SG, a, 5000, Venezuela'), 'Shipping to SG, ff, 5000, Venezuela.')
 
 WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout'))
+

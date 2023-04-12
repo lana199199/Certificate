@@ -46,3 +46,5 @@ WebUI.verifyEqual('2', '2')
 
 WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart'))
 
+WebUI.closeBrowser()
+

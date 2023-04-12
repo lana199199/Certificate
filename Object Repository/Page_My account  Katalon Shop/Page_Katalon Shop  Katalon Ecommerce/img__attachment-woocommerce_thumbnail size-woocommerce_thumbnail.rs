@@ -6,12 +6,12 @@
    <elementGuidId>3fc67eae-aced-4146-8cc9-92eae39bd6fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.product.type-product.post-57.status-publish.instock.product_cat-posters.has-post-thumbnail.taxable.shipping-taxable.purchasable.product-type-simple > div.ellie-thumb-wrapper > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail</value>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://cms.demo.katalon.com/wp-content/uploads/2019/08/poster_1_up-300x300.jpg')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='main']/div[2]/ul/li[2]/div/a/img</value>
+         <key>CSS</key>
+         <value>li.product.type-product.post-57.status-publish.instock.product_cat-posters.has-post-thumbnail.taxable.shipping-taxable.purchasable.product-type-simple > div.ellie-thumb-wrapper > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

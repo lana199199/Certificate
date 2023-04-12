@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_Order Process" time="198.751" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Order" tests="2" failures="0" errors="0" time="91.777" skipped="0" timestamp="2023-04-12 09:59:19" hostname="thanh.pnguyen - 10.10.34.184" id="Test Suites/TS_Order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/Certificate/Reports/20230412_095814/TS_Order/20230412_095825"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/Certificate/Reports/20230412_095814/TS_Order/20230412_095825/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanh.pnguyen - 10.10.34.184"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 112.0.5615.49"/>
+         <property name="hostAddress" value="10.10.34.184"/>
+         <property name="sessionId" value="2ab9e7848e955c27a2bd12b46cf1a192"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Order Process/Order Item 01" time="44.6" classname="Test Cases/Order Process/Order Item 01" status="PASSED">
+         <system-out><![CDATA[2023-04-12 09:59:20 - [TEST_CASE][PASSED] - Test Cases/Order Process/Order Item 01: Test Cases/Order Process/Order Item 01
+
+2023-04-12 09:59:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 09:59:20 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-04-12 09:59:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-12 09:59:21 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-12 09:59:21 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1152,864, --no-sandbox]']
+
+2023-04-12 09:59:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-12 09:59:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-12 09:59:26 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 09:59:32 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 09:59:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 09:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 09:59:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 09:59:33 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 09:59:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 09:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 09:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 09:59:34 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 09:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 09:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 09:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 09:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 09:59:36 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 09:59:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 09:59:37 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-04-12 09:59:37 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-04-12 09:59:37 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-04-12 09:59:37 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-04-12 09:59:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 09:59:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-04-12 09:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop' is clicked on
+
+2023-04-12 09:59:40 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-04-12 09:59:40 - [MESSAGE][PASSED] - Current window's title is: 'Katalon Shop – Katalon Ecommerce'
+
+2023-04-12 09:59:40 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Katalon Shop – Katalon Ecommerce", false): Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-04-12 09:59:40 - [MESSAGE][PASSED] - Actual text 'Katalon Shop – Katalon Ecommerce' and expected text 'Katalon Shop – Katalon Ecommerce' are matched 
+
+2023-04-12 09:59:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 09:59:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 09:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-04-12 09:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting' is clicked on
+
+2023-04-12 09:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-04-12 09:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest' is clicked on
+
+2023-04-12 09:59:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 09:59:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 09:59:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 3): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 09:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 09:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-04-12 10:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is clicked on
+
+2023-04-12 10:00:00 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:00:01 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-04-12 10:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next' is clicked on
+
+2023-04-12 10:00:02 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:00:02 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-04-12 10:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart' is clicked on
+
+2023-04-12 10:00:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-12 10:00:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order Process/Check order 02" time="46.713" classname="Test Cases/Order Process/Check order 02" status="PASSED">
+         <system-out><![CDATA[2023-04-12 10:00:04 - [TEST_CASE][PASSED] - Test Cases/Order Process/Check order 02: Test Cases/Order Process/Check order 02
+
+2023-04-12 10:00:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:00:05 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-04-12 10:00:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-12 10:00:05 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-12 10:00:05 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1152,864, --no-sandbox]']
+
+2023-04-12 10:00:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-12 10:00:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-12 10:00:08 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:00:12 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:00:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:00:13 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:00:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:00:13 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:00:15 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:00:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:00:15 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-04-12 10:00:15 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-04-12 10:00:15 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-04-12 10:00:15 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-04-12 10:00:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:00:19 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:00:19 - [MESSAGE][PASSED] - Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:00:19 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false): Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:00:19 - [MESSAGE][PASSED] - Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:00:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 5): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:00:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='main']/div[2]/ul/li[2]/div/a/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-12 10:00:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail'. Try using Self-healing.
+
+2023-04-12 10:00:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' was broken. Propose an alternative one: '//img[contains(@src,'https://cms.demo.katalon.com/wp-content/uploads/2019/08/poster_1_up-300x300.jpg')]'.
+
+2023-04-12 10:00:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:00:25 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:00:26 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:00:26 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:00:26 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:00:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart"), 0): Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-04-12 10:00:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-12 10:00:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-04-12 10:00:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/03 Change address"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/03 Change address' successfully
+
+2023-04-12 10:00:27 - [TEST_CASE][PASSED] - Test Cases/Order Process/03 Change address: Test Cases/Order Process/03 Change address
+
+2023-04-12 10:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Change address")): Object: 'Object Repository/a_Change address' is clicked on
+
+2023-04-12 10:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Change address' is clicked on
+
+2023-04-12 10:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/span_Vietnam")): Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-04-12 10:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-04-12 10:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-04-12 10:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-04-12 10:00:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:00:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_state"), "ff"): Text 'ff' is set on object 'Object Repository/input_Venezuela_calc_shipping_state'
+
+2023-04-12 10:00:32 - [MESSAGE][PASSED] - Text 'ff' is set on object 'Object Repository/input_Venezuela_calc_shipping_state'
+
+2023-04-12 10:00:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:00:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_city"), "SG"): Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-04-12 10:00:35 - [MESSAGE][PASSED] - Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-04-12 10:00:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:00:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_postcode"), "5000"): Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-04-12 10:00:38 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-04-12 10:00:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:00:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:00:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Update")): Object: 'Object Repository/button_Update' is clicked on
+
+2023-04-12 10:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Update' is clicked on
+
+2023-04-12 10:00:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:00:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:00:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/p_Shipping to SG, a, 5000, Venezuela"), "Shipping to SG, ff, 5000, Venezuela."): Actual text and expected text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are matched.
+
+2023-04-12 10:00:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are matched.
+
+2023-04-12 10:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2023-04-12 10:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2023-04-12 10:00:51 - [MESSAGE][INFO] - 
+
+2023-04-12 10:00:51 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2023-04-12 10:00:51 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2023-04-12 10:00:51 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2023-04-12 10:00:51 - [MESSAGE][INFO] - ==============================================================
+
+2023-04-12 10:00:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/03 Change address' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-12 09:59:19 - [TEST_SUITE][PASSED] - TS_Order: Test Cases/Order Process/Check order 02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Check order" tests="1" failures="0" errors="0" time="50.526" skipped="0" timestamp="2023-04-12 10:01:17" hostname="thanh.pnguyen - 10.10.34.184" id="Test Suites/TS_Check order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thanh.pnguyen/Documents/Katalon/Certificate/Reports/20230412_095814/TS_Check order/20230412_095846"/>
+         <property name="logFiles" value="/Users/thanh.pnguyen/Documents/Katalon/Certificate/Reports/20230412_095814/TS_Check order/20230412_095846/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thanh.pnguyen - 10.10.34.184"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 112.0.5615.49"/>
+         <property name="hostAddress" value="10.10.34.184"/>
+         <property name="sessionId" value="a01e4b2502566b949e1790f2aac717e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Order Process/Check order 02" time="50.095" classname="Test Cases/Order Process/Check order 02" status="PASSED">
+         <system-out><![CDATA[2023-04-12 10:01:18 - [TEST_CASE][PASSED] - Test Cases/Order Process/Check order 02: Test Cases/Order Process/Check order 02
+
+2023-04-12 10:01:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:01:18 - [TEST_CASE][PASSED] - Test Cases/Account/Login successfully: Test Cases/Account/Login successfully
+
+2023-04-12 10:01:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-12 10:01:19 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2023-04-12 10:01:19 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1152,864, --no-sandbox]']
+
+2023-04-12 10:01:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-12 10:01:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-12 10:01:23 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/my-account/"): Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:01:28 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/my-account/' successfully
+
+2023-04-12 10:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__username")): Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__username' is clicked on
+
+2023-04-12 10:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__username"), username): Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:01:29 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Page_My account  Katalon Shop/input__username'
+
+2023-04-12 10:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__password")): Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__password' is clicked on
+
+2023-04-12 10:01:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_My account  Katalon Shop/input__password"), password): Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:01:29 - [MESSAGE][PASSED] - Text 'crz7mrb.KNG3yxv1fbn' is set on object 'Object Repository/Page_My account  Katalon Shop/input__password'
+
+2023-04-12 10:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/input__rememberme")): Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/input__rememberme' is clicked on
+
+2023-04-12 10:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-04-12 10:01:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:01:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover' is: 'KatalonLover'
+
+2023-04-12 10:01:32 - [TEST_STEP][PASSED] - responseString = "KatalonLover": null
+
+2023-04-12 10:01:32 - [TEST_STEP][PASSED] - expectedString = "katalonlover": null
+
+2023-04-12 10:01:32 - [TEST_STEP][PASSED] - if (responseString.toLowerCase() == expectedString): null
+
+2023-04-12 10:01:32 - [TEST_STEP][PASSED] - println("Response is correct"): null
+
+2023-04-12 10:01:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Account/Login successfully' successfully
+
+2023-04-12 10:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart' is clicked on
+
+2023-04-12 10:01:36 - [TEST_STEP][PASSED] - SamplePageTitle = getWindowTitle(): Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:01:36 - [MESSAGE][PASSED] - Current window's title is: 'Cart – Katalon Shop'
+
+2023-04-12 10:01:36 - [TEST_STEP][PASSED] - verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false): Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:01:36 - [MESSAGE][PASSED] - Actual text 'Cart – Katalon Shop' and expected text 'Cart – Katalon Shop' are matched 
+
+2023-04-12 10:01:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 5): Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:01:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='main']/div[2]/ul/li[2]/div/a/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-12 10:01:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail'. Try using Self-healing.
+
+2023-04-12 10:01:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' was broken. Propose an alternative one: '//img[contains(@src,'https://cms.demo.katalon.com/wp-content/uploads/2019/08/poster_1_up-300x300.jpg')]'.
+
+2023-04-12 10:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail' is present
+
+2023-04-12 10:01:42 - [TEST_STEP][PASSED] - verifyTextPresent("Ship Your Idea", false): Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:01:42 - [MESSAGE][PASSED] - Text 'Ship Your Idea' is present on page 
+
+2023-04-12 10:01:42 - [TEST_STEP][PASSED] - verifyEqual("2", "2"): Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:01:42 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2023-04-12 10:01:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart"), 0): Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-04-12 10:01:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-12 10:01:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart' successfully
+
+2023-04-12 10:01:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Order Process/03 Change address"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Order Process/03 Change address' successfully
+
+2023-04-12 10:01:43 - [TEST_CASE][PASSED] - Test Cases/Order Process/03 Change address: Test Cases/Order Process/03 Change address
+
+2023-04-12 10:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Change address")): Object: 'Object Repository/a_Change address' is clicked on
+
+2023-04-12 10:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Change address' is clicked on
+
+2023-04-12 10:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/span_Vietnam")): Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-04-12 10:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Vietnam' is clicked on
+
+2023-04-12 10:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-04-12 10:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela' is clicked on
+
+2023-04-12 10:01:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:01:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_state"), "ff"): Text 'ff' is set on object 'Object Repository/input_Venezuela_calc_shipping_state'
+
+2023-04-12 10:01:48 - [MESSAGE][PASSED] - Text 'ff' is set on object 'Object Repository/input_Venezuela_calc_shipping_state'
+
+2023-04-12 10:01:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:01:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_city"), "SG"): Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-04-12 10:01:52 - [MESSAGE][PASSED] - Text 'SG' is set on object 'Object Repository/input_Venezuela_calc_shipping_city'
+
+2023-04-12 10:01:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-12 10:01:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-12 10:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_postcode"), "5000"): Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-04-12 10:01:55 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/input_Venezuela_calc_shipping_postcode'
+
+2023-04-12 10:01:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:02:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:02:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Update")): Object: 'Object Repository/button_Update' is clicked on
+
+2023-04-12 10:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Update' is clicked on
+
+2023-04-12 10:02:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-04-12 10:02:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-04-12 10:02:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/p_Shipping to SG, a, 5000, Venezuela"), "Shipping to SG, ff, 5000, Venezuela."): Actual text and expected text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are matched.
+
+2023-04-12 10:02:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/p_Shipping to SG, a, 5000, Venezuela' are matched.
+
+2023-04-12 10:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout")): Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2023-04-12 10:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2023-04-12 10:02:08 - [MESSAGE][INFO] - 
+
+2023-04-12 10:02:08 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2023-04-12 10:02:08 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2023-04-12 10:02:08 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2023-04-12 10:02:08 - [MESSAGE][INFO] - ==============================================================
+
+2023-04-12 10:02:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Order Process/03 Change address' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-12 10:01:17 - [TEST_SUITE][PASSED] - TS_Check order: Test Cases/Order Process/Check order 02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

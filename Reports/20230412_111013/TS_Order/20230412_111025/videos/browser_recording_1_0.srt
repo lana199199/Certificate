@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://cms.demo.katalon.com/my-account/")
+
+4
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Page_My account  Katalon Shop/input__username"))
+
+5
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Page_My account  Katalon Shop/input__username"), username)
+

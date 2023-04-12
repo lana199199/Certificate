@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Check order,Chrome 112.0.0.0,,,2023-04-12 11:12:03,2023-04-12 11:12:19,16.359s,FAILED
+,,,,,,,
+Test Cases/Order Process/Check order 02,Chrome 112.0.0.0,,,2023-04-12 11:12:03,2023-04-12 11:12:19,15.939s,FAILED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-12 11:12:03,2023-04-12 11:12:19,15.494s,FAILED

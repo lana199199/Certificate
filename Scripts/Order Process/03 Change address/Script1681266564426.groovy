@@ -21,6 +21,8 @@ WebUI.click(findTestObject('Object Repository/a_Change address'))
 
 WebUI.click(findTestObject('Object Repository/span_Vietnam'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela'))
 
 WebUI.delay(3)

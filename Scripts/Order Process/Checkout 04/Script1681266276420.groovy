@@ -31,9 +31,6 @@ WebUI.setText(findTestObject('Object Repository/input_(optional)_billing_company
 
 WebUI.delay(3)
 
-//WebUI.click(findTestObject('span_Venezuela'))
-//.click(findTestObject('span_Vietnam'))
-//WebUI.selectOptionByLabel(findTestObject('span_Vietnam'), 'VIETNAM', false)
 WebUI.setText(findTestObject('Object Repository/input__billing_address_1'), '19 Nguyen Thi Thap')
 
 WebUI.delay(3)
@@ -54,17 +51,7 @@ WebUI.setText(findTestObject('Object Repository/textarea_(optional)_order_commen
 
 WebUI.click(findTestObject('Object Repository/button_Place order'))
 
-WebUI.verifyTextPresent('Cash on delivery', false)
+WebUI.callTestCase(findTestCase('Order Process/05 Verify last order'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Ship Your Idea × 2', false)
-
-WebUI.verifyTextPresent('$50.00', false)
-
-expectedText = WebUI.getText(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela'))
-
-println(expectedText)
-
-WebUI.verifyTextPresent(expectedText, false)
-
-WebUI.callTestCase(findTestCase('Order Process/remove items 04'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Order Process/06 remove items'), [:], FailureHandling.STOP_ON_FAILURE)
 

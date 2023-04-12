@@ -17,20 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Account/Login successfully'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/a_Change address'))
 
-WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart'))
+WebUI.click(findTestObject('Object Repository/span_Vietnam'))
 
-SamplePageTitle = WebUI.getWindowTitle()
+WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela'))
 
-WebUI.verifyMatch(SamplePageTitle, 'Cart – Katalon Shop', false)
+WebUI.delay(3)
 
-WebUI.verifyTextPresent('Ship Your Idea', false)
+WebUI.setText(findTestObject('Object Repository/input_Venezuela_calc_shipping_state'), 'ff')
 
-WebUI.verifyEqual('2', '2')
+WebUI.setText(findTestObject('Object Repository/input_Venezuela_calc_shipping_city'), 'SG')
 
-WebUI.scrollToElement(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart'), 
-    0)
+WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Order Process/03 Change address'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/input_Venezuela_calc_shipping_postcode'), '5000')
 
+WebUI.click(findTestObject('Object Repository/button_Update'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/p_Shipping to SG, a, 5000, Venezuela'), 'Shipping to SG, ff, 5000, Venezuela.')
+
+WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout'))

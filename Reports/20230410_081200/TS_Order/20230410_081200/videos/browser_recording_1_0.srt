@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://cms.demo.katalon.com/my-account/")
+
+4
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Page_My account  Katalon Shop/input__username"))
+
+5
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Page_My account  Katalon Shop/input__username"), username)
+
+6
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Page_My account  Katalon Shop/input__password"))
+
+7
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Page_My account  Katalon Shop/input__password"), password)
+
+8
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_My account  Katalon Shop/input__rememberme"))
+
+9
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_My account  Katalon Shop/button_Log in"))
+
+10
+00:00:00,000 --> 00:00:00,000
+33. getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE)
+
+11
+00:00:00,000 --> 00:00:00,000
+37. responseString = "KatalonLover"
+
+12
+00:00:00,000 --> 00:00:00,000
+41. expectedString = "katalonlover"
+
+13
+00:00:00,000 --> 00:00:00,000
+45. if (responseString.toLowerCase() == expectedString)
+
+14
+00:00:00,000 --> 00:00:00,000
+1. println("Response is correct")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop"))
+
+16
+00:00:00,000 --> 00:00:00,000
+9. SamplePageTitle = getWindowTitle()
+
+17
+00:00:00,000 --> 00:00:00,000
+13. verifyMatch(SamplePageTitle, "Katalon Shop – Katalon Ecommerce", false)
+
+18
+00:00:00,000 --> 00:00:00,000
+17. delay(5)
+
+19
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting"))
+
+20
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest"))
+
+21
+00:00:00,000 --> 00:00:00,000
+29. delay(5)
+
+22
+00:00:00,000 --> 00:00:00,000
+33. waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 3)
+
+23
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"))
+
+24
+00:00:00,000 --> 00:00:00,000
+41. verifyTextPresent("Ship Your Idea", false)
+
+25
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next"))
+
+26
+00:00:00,000 --> 00:00:00,000
+49. verifyEqual("2", "2")
+
+27
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart"))
+

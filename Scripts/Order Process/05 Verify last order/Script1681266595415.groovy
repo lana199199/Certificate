@@ -17,20 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Account/Login successfully'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Cash on delivery', false)
 
-WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart'))
+WebUI.verifyTextPresent('Ship Your Idea × 2', false)
 
-SamplePageTitle = WebUI.getWindowTitle()
+WebUI.verifyTextPresent('$50.00', false)
 
-WebUI.verifyMatch(SamplePageTitle, 'Cart – Katalon Shop', false)
+expectedText = WebUI.getText(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela'))
 
-WebUI.verifyTextPresent('Ship Your Idea', false)
+println(expectedText)
 
-WebUI.verifyEqual('2', '2')
-
-WebUI.scrollToElement(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart'), 
-    0)
-
-WebUI.callTestCase(findTestCase('Order Process/03 Change address'), [:], FailureHandling.STOP_ON_FAILURE)
-
+WebUI.verifyTextPresent(expectedText, false)

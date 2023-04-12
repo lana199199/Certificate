@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Remove,Chrome 112.0.5615.49,,,2023-04-10 07:11:33,2023-04-10 07:12:02,28.332s,FAILED
+,,,,,,,
+Test Cases/Order Process/Checkout 03,Chrome 112.0.5615.49,,,2023-04-10 07:11:34,2023-04-10 07:12:02,27.882s,FAILED
+"callTestCase(findTestCase(""Order Process/Check order 02""), [:], STOP_ON_FAILURE)",Chrome 112.0.5615.49,,,2023-04-10 07:11:34,2023-04-10 07:12:02,27.353s,FAILED

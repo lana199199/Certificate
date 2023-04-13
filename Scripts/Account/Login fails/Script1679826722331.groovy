@@ -47,7 +47,6 @@ if (responseString.toUpperCase() == expectedString) {
 } else {
     println('Response is not correct')
 
+    WebUI.closeBrowser()
 }
-
-
 

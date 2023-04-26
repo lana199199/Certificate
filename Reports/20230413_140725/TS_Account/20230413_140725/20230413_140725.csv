@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 112.0.0.0,,,2023-04-13 14:07:41,2023-04-13 14:08:05,23.739s,PASSED
+,,,,,,,
+Test Cases/Account/Login fails,Chrome 112.0.0.0,,,2023-04-13 14:07:42,2023-04-13 14:08:05,22.857s,PASSED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-13 14:07:42,2023-04-13 14:07:42,0.023s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-13 14:07:42,2023-04-13 14:07:53,10.345s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 112.0.0.0,,,2023-04-13 14:07:53,2023-04-13 14:07:57,4.132s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 112.0.0.0,,,2023-04-13 14:07:57,2023-04-13 14:07:58,0.927s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 112.0.0.0,,,2023-04-13 14:07:58,2023-04-13 14:07:59,1.233s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Chrome 112.0.0.0,,,2023-04-13 14:07:59,2023-04-13 14:08:00,0.514s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Chrome 112.0.0.0,,,2023-04-13 14:08:00,2023-04-13 14:08:00,0.832s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Chrome 112.0.0.0,,,2023-04-13 14:08:00,2023-04-13 14:08:01,0.469s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Chrome 112.0.0.0,,,2023-04-13 14:08:01,2023-04-13 14:08:04,3.019s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-13 14:08:04,2023-04-13 14:08:05,0.584s,PASSED
+"responseString = ""KatalonLover""",Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.019s,PASSED
+"expectedString = ""katalonlover""",Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.018s,PASSED
+if (responseString.toUpperCase() == expectedString),Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.002s,PASSED
+else,Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.023s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.149s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.002s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.275s,PASSED
+Start listener action : enableSauceLabs,Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.002s,PASSED
+return null,Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.008s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 112.0.0.0,,,2023-04-13 14:08:05,2023-04-13 14:08:05,0.003s,PASSED

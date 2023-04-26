@@ -1,0 +1,268 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Account/Login successfully"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://cms.demo.katalon.com/my-account/")
+
+4
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Page_My account  Katalon Shop/input__username"))
+
+5
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Page_My account  Katalon Shop/input__username"), username)
+
+6
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Page_My account  Katalon Shop/input__password"))
+
+7
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Page_My account  Katalon Shop/input__password"), password)
+
+8
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_My account  Katalon Shop/input__rememberme"))
+
+9
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_My account  Katalon Shop/button_Log in"))
+
+10
+00:00:00,000 --> 00:00:00,000
+33. getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE)
+
+11
+00:00:00,000 --> 00:00:00,000
+37. responseString = "KatalonLover"
+
+12
+00:00:00,000 --> 00:00:00,000
+41. expectedString = "katalonlover"
+
+13
+00:00:00,000 --> 00:00:00,000
+45. if (responseString.toLowerCase() == expectedString)
+
+14
+00:00:00,000 --> 00:00:00,000
+1. println("Response is correct")
+
+15
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart"))
+
+16
+00:00:00,000 --> 00:00:00,000
+9. SamplePageTitle = getWindowTitle()
+
+17
+00:00:00,000 --> 00:00:00,000
+13. verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false)
+
+18
+00:00:00,000 --> 00:00:00,000
+17. waitForElementPresent(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail"), 5)
+
+19
+00:00:00,000 --> 00:00:00,000
+21. verifyTextPresent("Ship Your Idea", false)
+
+20
+00:00:00,000 --> 00:00:00,000
+25. verifyEqual("2", "2")
+
+21
+00:00:00,000 --> 00:00:00,000
+29. scrollToElement(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/button_Update cart"), 0)
+
+22
+00:00:00,000 --> 00:00:00,000
+33. callTestCase(findTestCase("Order Process/03 Change address"), [:], STOP_ON_FAILURE)
+
+23
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("Object Repository/a_Change address"))
+
+24
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/span_Vietnam"))
+
+25
+00:00:00,000 --> 00:00:00,000
+9. delay(3)
+
+26
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/li_Venezuela"))
+
+27
+00:00:00,000 --> 00:00:00,000
+17. delay(3)
+
+28
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_state"), "ff")
+
+29
+00:00:00,000 --> 00:00:00,000
+25. delay(3)
+
+30
+00:00:00,000 --> 00:00:00,000
+29. setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_city"), "SG")
+
+31
+00:00:00,000 --> 00:00:00,000
+33. delay(3)
+
+32
+00:00:00,000 --> 00:00:00,000
+37. setText(findTestObject("Object Repository/input_Venezuela_calc_shipping_postcode"), "5000")
+
+33
+00:00:00,000 --> 00:00:00,000
+41. delay(5)
+
+34
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/button_Update"))
+
+35
+00:00:00,000 --> 00:00:00,000
+49. delay(5)
+
+36
+00:00:00,000 --> 00:00:00,000
+53. verifyElementText(findTestObject("Object Repository/p_Shipping to SG, a, 5000, Venezuela"), "Shipping to SG, ff, 5000, Venezuela.")
+
+37
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout"))
+
+38
+00:00:00,000 --> 00:00:00,000
+37. callTestCase(findTestCase("Order Process/Checkout 04"), [:], STOP_ON_FAILURE)
+
+39
+00:00:00,000 --> 00:00:00,000
+1. PageTitle = getWindowTitle()
+
+40
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("Object Repository/input__billing_first_name"), "Eve")
+
+41
+00:00:00,000 --> 00:00:00,000
+9. setText(findTestObject("Object Repository/input__billing_last_name"), "L")
+
+42
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/input_(optional)_billing_company"), "Katalon")
+
+43
+00:00:00,000 --> 00:00:00,000
+17. delay(3)
+
+44
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/input__billing_address_1"), "19 Nguyen Thi Thap")
+
+45
+00:00:00,000 --> 00:00:00,000
+25. delay(3)
+
+46
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("input_(optional)_billing_postcode"))
+
+47
+00:00:00,000 --> 00:00:00,000
+33. setText(findTestObject("Object Repository/input_(optional)_billing_postcode"), "5000")
+
+48
+00:00:00,000 --> 00:00:00,000
+37. delay(3)
+
+49
+00:00:00,000 --> 00:00:00,000
+41. setText(findTestObject("Object Repository/input__billing_phone"), "0359912894")
+
+50
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/div_Have a coupon Click here to enter your _f97527"))
+
+51
+00:00:00,000 --> 00:00:00,000
+49. setText(findTestObject("Object Repository/input__billing_email"), "katalonLover@outlook.com")
+
+52
+00:00:00,000 --> 00:00:00,000
+53. setText(findTestObject("Object Repository/textarea_(optional)_order_comments"), "cash")
+
+53
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/button_Place order"))
+
+54
+00:00:00,000 --> 00:00:00,000
+61. delay(5)
+
+55
+00:00:00,000 --> 00:00:00,000
+65. callTestCase(findTestCase("Order Process/05 Verify last order"), [:], STOP_ON_FAILURE)
+
+56
+00:00:00,000 --> 00:00:00,000
+1. verifyTextPresent("Cash on delivery", false)
+
+57
+00:00:00,000 --> 00:00:00,000
+5. delay(3)
+
+58
+00:00:00,000 --> 00:00:00,000
+9. verifyTextPresent("Ship Your Idea × 2", false)
+
+59
+00:00:00,000 --> 00:00:00,000
+13. delay(3)
+
+60
+00:00:00,000 --> 00:00:00,000
+17. expectedText = getText(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/address_Eve LKatalon19 Nguyen Thi ThapSGff5000Venezuela"))
+
+61
+00:00:00,000 --> 00:00:00,000
+21. println(expectedText)
+
+62
+00:00:00,000 --> 00:00:00,000
+25. verifyTextPresent(expectedText, false)
+
+63
+00:00:00,000 --> 00:00:00,000
+69. callTestCase(findTestCase("Order Process/06 remove items"), [:], STOP_ON_FAILURE)
+
+64
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart"))
+
+65
+00:00:00,000 --> 00:00:00,000
+5. SamplePageTitle = getWindowTitle()
+
+66
+00:00:00,000 --> 00:00:00,000
+9. verifyMatch(SamplePageTitle, "Cart – Katalon Shop", false)
+
+67
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/a_Return to shop"))
+

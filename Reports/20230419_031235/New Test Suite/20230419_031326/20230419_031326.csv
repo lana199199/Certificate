@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2023-04-19 03:14:27,2023-04-19 03:14:47,19.858s,ERROR
+,,,,,,,
+Test Cases/New Test Case (1),,,,2023-04-19 03:14:33,2023-04-19 03:14:47,13.984s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", ""/Applications/Katalon Studio 8.6.0.app/Contents/Eclipse/configuration/resources/drivers/chromedriver_mac/chromedriver"")",,,,2023-04-19 03:14:44,2023-04-19 03:14:45,0.285s,PASSED
+opt = new org.openqa.selenium.chrome.ChromeOptions(),,,,2023-04-19 03:14:45,2023-04-19 03:14:45,0.752s,PASSED
+"opt.setBinary(""/Applications/Google Chrome.app"")",,,,2023-04-19 03:14:45,2023-04-19 03:14:45,0.084s,PASSED
+"opt.setExperimentalOption(""excludeSwitches"", Collections.singletonList(""enable-automation""))",,,,2023-04-19 03:14:45,2023-04-19 03:14:46,0.182s,PASSED
+"opt.setExperimentalOption(""useAutomationExtension"", false)",,,,2023-04-19 03:14:46,2023-04-19 03:14:46,0.049s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(opt),,,,2023-04-19 03:14:46,2023-04-19 03:14:47,1.436s,ERROR

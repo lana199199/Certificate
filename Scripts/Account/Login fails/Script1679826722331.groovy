@@ -39,7 +39,6 @@ WebUI.getText(findTestObject('Object Repository/Page_My account  Katalon Shop/Pa
 
 //verify the text without considering its format 
 String responseString = 'KatalonLover'
-
 String expectedString = 'katalonlover'
 
 if (responseString.toUpperCase() == expectedString) {
@@ -47,6 +46,6 @@ if (responseString.toUpperCase() == expectedString) {
 } else {
     println('Response is not correct')
 
-    WebUI.closeBrowser()
 }
 
+WebUI.closeBrowser()

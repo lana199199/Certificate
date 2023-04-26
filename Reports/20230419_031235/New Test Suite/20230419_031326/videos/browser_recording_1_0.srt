@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. System.setProperty("webdriver.chrome.driver", "/Applications/Katalon Studio 8.6.0.app/Contents/Eclipse/configuration/resources/drivers/chromedriver_mac/chromedriver")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. opt = new org.openqa.selenium.chrome.ChromeOptions()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. opt.setBinary("/Applications/Google Chrome.app")
+
+4
+00:00:00,000 --> 00:00:00,000
+13. opt.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"))
+
+5
+00:00:00,000 --> 00:00:00,000
+17. opt.setExperimentalOption("useAutomationExtension", false)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. driver = new org.openqa.selenium.chrome.ChromeDriver(opt)
+

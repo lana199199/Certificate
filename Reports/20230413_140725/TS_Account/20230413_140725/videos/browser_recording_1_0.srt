@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://cms.demo.katalon.com/my-account/")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Page_My account  Katalon Shop/input__username"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Page_My account  Katalon Shop/input__username"), username)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Page_My account  Katalon Shop/input__password"))
+
+6
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Page_My account  Katalon Shop/input__password"), password)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("Page_My account  Katalon Shop/input__rememberme"))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Page_My account  Katalon Shop/button_Log in"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. getText(findTestObject("Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover"), STOP_ON_FAILURE)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. responseString = "KatalonLover"
+
+11
+00:00:00,000 --> 00:00:00,000
+41. expectedString = "katalonlover"
+
+12
+00:00:00,000 --> 00:00:00,000
+45. if (responseString.toUpperCase() == expectedString)
+
+13
+00:00:00,000 --> 00:00:00,000
+2. println("Response is not correct")
+
+14
+00:00:00,000 --> 00:00:00,000
+49. closeBrowser()
+

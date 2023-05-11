@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Firefox 107.0,,,2023-04-28 07:25:18,2023-04-28 07:26:01,42.873s,PASSED
+,,,,,,,
+Test Cases/Account/Login fails,Firefox 107.0,,,2023-04-28 07:25:20,2023-04-28 07:26:01,41.302s,PASSED
+Start listener action : enableSauceLabs,Firefox 107.0,,,2023-04-28 07:25:20,2023-04-28 07:25:20,0.103s,PASSED
+"openBrowser("""")",Firefox 107.0,,,2023-04-28 07:25:22,2023-04-28 07:25:42,20.624s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Firefox 107.0,,,2023-04-28 07:25:42,2023-04-28 07:25:49,6.471s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Firefox 107.0,,,2023-04-28 07:25:49,2023-04-28 07:25:50,1.658s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Firefox 107.0,,,2023-04-28 07:25:50,2023-04-28 07:25:52,1.367s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Firefox 107.0,,,2023-04-28 07:25:52,2023-04-28 07:25:52,0.691s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Firefox 107.0,,,2023-04-28 07:25:52,2023-04-28 07:25:53,0.479s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Firefox 107.0,,,2023-04-28 07:25:53,2023-04-28 07:25:54,0.619s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Firefox 107.0,,,2023-04-28 07:25:54,2023-04-28 07:25:57,3.445s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Firefox 107.0,,,2023-04-28 07:25:57,2023-04-28 07:25:58,0.738s,PASSED
+"responseString = ""KatalonLover""",Firefox 107.0,,,2023-04-28 07:25:58,2023-04-28 07:25:58,0.005s,PASSED
+"expectedString = ""katalonlover""",Firefox 107.0,,,2023-04-28 07:25:58,2023-04-28 07:25:58,0.008s,PASSED
+if (responseString.toUpperCase() == expectedString),Firefox 107.0,,,2023-04-28 07:25:58,2023-04-28 07:25:58,0.013s,PASSED
+else,Firefox 107.0,,,2023-04-28 07:25:58,2023-04-28 07:25:58,0.037s,PASSED
+closeBrowser(),Firefox 107.0,,,2023-04-28 07:25:58,2023-04-28 07:26:01,3.081s,PASSED
+Start listener action : autoUpdateJobStatus,Firefox 107.0,,,2023-04-28 07:26:01,2023-04-28 07:26:01,0.009s,PASSED

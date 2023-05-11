@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Edge Chromium 113,,,2023-05-07 17:02:20,2023-05-07 17:03:03,42.766s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,Edge Chromium 113,,,2023-05-07 17:02:21,2023-05-07 17:03:03,42.217s,FAILED
+Start listener action : enableSauceLabs,Edge Chromium 113,,,2023-05-07 17:02:21,2023-05-07 17:02:21,0.048s,PASSED
+"openBrowser("""")",Edge Chromium 113,,,2023-05-07 17:02:21,2023-05-07 17:02:35,13.790s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Edge Chromium 113,,,2023-05-07 17:02:35,2023-05-07 17:02:44,9.114s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Edge Chromium 113,,,2023-05-07 17:02:44,2023-05-07 17:02:45,1.320s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Edge Chromium 113,,,2023-05-07 17:02:45,2023-05-07 17:02:47,1.402s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Edge Chromium 113,,,2023-05-07 17:02:47,2023-05-07 17:02:48,0.906s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Edge Chromium 113,,,2023-05-07 17:02:48,2023-05-07 17:02:49,1.218s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Edge Chromium 113,,,2023-05-07 17:02:49,2023-05-07 17:02:50,0.669s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Edge Chromium 113,,,2023-05-07 17:02:50,2023-05-07 17:02:55,5.175s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Edge Chromium 113,,,2023-05-07 17:02:55,2023-05-07 17:03:03,8.051s,FAILED
+Start listener action : autoUpdateJobStatus,Edge Chromium 113,,,2023-05-07 17:03:03,2023-05-07 17:03:03,0.012s,PASSED

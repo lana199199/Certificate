@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Visual Testing,,,,2023-05-10 17:09:05,2023-05-10 17:09:11,5.777s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/VS_Demo,,,,2023-05-10 17:09:06,2023-05-10 17:09:11,5.301s,FAILED
+"openBrowser("""")",,,,2023-05-10 17:09:06,2023-05-10 17:09:11,4.894s,FAILED

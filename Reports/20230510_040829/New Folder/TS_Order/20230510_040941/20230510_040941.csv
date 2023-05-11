@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Order,,,,2023-05-10 04:11:24,2023-05-10 04:13:25,2m - 1.779s,FAILED
+,,,,,,,
+Test Cases/Order Process/Order Item 01,,,,2023-05-10 04:11:31,2023-05-10 04:12:55,1m - 24.410s,FAILED
+Start listener action : enableSauceLabs,,,,2023-05-10 04:11:32,2023-05-10 04:11:32,0.569s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",,,,2023-05-10 04:11:40,2023-05-10 04:12:55,1m - 14.658s,FAILED
+Start listener action : autoUpdateJobStatus,,,,2023-05-10 04:12:55,2023-05-10 04:12:55,0.038s,PASSED
+,,,,,,,
+Test Cases/Order Process/Check order 02,,,,2023-05-10 04:12:56,2023-05-10 04:13:25,29.595s,FAILED
+Start listener action : enableSauceLabs,,,,2023-05-10 04:12:57,2023-05-10 04:12:57,0.090s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",,,,2023-05-10 04:13:04,2023-05-10 04:13:25,20.819s,FAILED
+Start listener action : autoUpdateJobStatus,,,,2023-05-10 04:13:25,2023-05-10 04:13:25,0.088s,PASSED

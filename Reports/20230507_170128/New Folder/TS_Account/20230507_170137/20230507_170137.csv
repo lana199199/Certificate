@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Edge Chromium 113,,,2023-05-07 17:02:13,2023-05-07 17:02:56,43.211s,PASSED
+,,,,,,,
+Test Cases/Account/Login fails,Edge Chromium 113,,,2023-05-07 17:02:13,2023-05-07 17:02:56,42.842s,PASSED
+Start listener action : enableSauceLabs,Edge Chromium 113,,,2023-05-07 17:02:13,2023-05-07 17:02:13,0.024s,PASSED
+"openBrowser("""")",Edge Chromium 113,,,2023-05-07 17:02:14,2023-05-07 17:02:34,20.560s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Edge Chromium 113,,,2023-05-07 17:02:34,2023-05-07 17:02:43,9.025s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Edge Chromium 113,,,2023-05-07 17:02:43,2023-05-07 17:02:45,1.517s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Edge Chromium 113,,,2023-05-07 17:02:45,2023-05-07 17:02:46,1.467s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Edge Chromium 113,,,2023-05-07 17:02:46,2023-05-07 17:02:47,0.822s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Edge Chromium 113,,,2023-05-07 17:02:47,2023-05-07 17:02:48,1.292s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Edge Chromium 113,,,2023-05-07 17:02:48,2023-05-07 17:02:49,0.627s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Edge Chromium 113,,,2023-05-07 17:02:49,2023-05-07 17:02:54,5.006s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Edge Chromium 113,,,2023-05-07 17:02:54,2023-05-07 17:02:56,1.728s,PASSED
+"responseString = ""KatalonLover""",Edge Chromium 113,,,2023-05-07 17:02:56,2023-05-07 17:02:56,0.000s,PASSED
+"expectedString = ""katalonlover""",Edge Chromium 113,,,2023-05-07 17:02:56,2023-05-07 17:02:56,0.001s,PASSED
+if (responseString.toUpperCase() == expectedString),Edge Chromium 113,,,2023-05-07 17:02:56,2023-05-07 17:02:56,0.005s,PASSED
+else,Edge Chromium 113,,,2023-05-07 17:02:56,2023-05-07 17:02:56,0.015s,PASSED
+closeBrowser(),Edge Chromium 113,,,2023-05-07 17:02:56,2023-05-07 17:02:56,0.274s,PASSED
+Start listener action : autoUpdateJobStatus,Edge Chromium 113,,,2023-05-07 17:02:56,2023-05-07 17:02:56,0.003s,PASSED

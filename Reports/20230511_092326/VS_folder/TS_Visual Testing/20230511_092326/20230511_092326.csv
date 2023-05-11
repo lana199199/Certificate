@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Visual Testing,Chrome 113.0.0.0,,,2023-05-11 09:23:42,2023-05-11 09:24:34,51.883s,PASSED
+,,,,,,,
+Test Cases/Visual Testing/VS_Demo,Chrome 113.0.0.0,,,2023-05-11 09:23:43,2023-05-11 09:24:34,51.408s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-11 09:23:43,2023-05-11 09:23:54,10.890s,PASSED
+"navigateToUrl(""https://www.fs.com/specials/driving-next-generation-data-centers-toward-400g-136.html"")",Chrome 113.0.0.0,,,2023-05-11 09:23:54,2023-05-11 09:24:26,31.518s,PASSED
+waitForPageLoad(5),Chrome 113.0.0.0,,,2023-05-11 09:24:26,2023-05-11 09:24:26,0.196s,PASSED
+delay(3),Chrome 113.0.0.0,,,2023-05-11 09:24:26,2023-05-11 09:24:29,3.042s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Z10-400G"")",Chrome 113.0.0.0,,,2023-05-11 09:24:29,2023-05-11 09:24:34,5.316s,PASSED

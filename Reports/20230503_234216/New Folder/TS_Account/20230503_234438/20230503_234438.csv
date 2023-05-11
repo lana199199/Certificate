@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,,,,2023-05-03 23:46:56,2023-05-03 23:47:09,13.493s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,,,,2023-05-03 23:46:58,2023-05-03 23:47:09,11.395s,FAILED
+Start listener action : enableSauceLabs,,,,2023-05-03 23:46:58,2023-05-03 23:46:58,0.121s,PASSED
+"openBrowser("""")",,,,2023-05-03 23:47:01,2023-05-03 23:47:09,8.721s,FAILED
+Start listener action : autoUpdateJobStatus,,,,2023-05-03 23:47:09,2023-05-03 23:47:09,0.018s,PASSED

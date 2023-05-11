@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://www.fs.com/specials/driving-next-generation-data-centers-toward-400g-136.html")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. waitForPageLoad(5)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. delay(3)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. takeScreenshotAsCheckpoint("Z10-400G")
+

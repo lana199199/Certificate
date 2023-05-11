@@ -25,5 +25,5 @@ WebUI.waitForPageLoad(5)
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('Z10-400G')
+WebUI.takeScreenshotAsCheckpoint('Z10-400G')
 

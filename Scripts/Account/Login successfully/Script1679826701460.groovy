@@ -46,9 +46,8 @@ if (responseString.toLowerCase() == expectedString) {
     println('Response is correct')
 } else {
     println('Response is not correct')
-	
-	 WebUI.click(findTestObject('Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Log out'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Log out'), 
+        FailureHandling.STOP_ON_FAILURE)
 }
-
-
 

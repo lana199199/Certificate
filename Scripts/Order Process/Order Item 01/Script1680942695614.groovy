@@ -36,7 +36,7 @@ WebUI.delay(5)
 WebUI.waitForElementPresent(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail'), 
     3)
 
-WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail'))
+WebUI.enhancedClick(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail'))
 
 WebUI.verifyTextPresent('Ship Your Idea', false)
 

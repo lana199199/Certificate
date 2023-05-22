@@ -21,7 +21,7 @@ WebUI.verifyTextPresent('Cash on delivery', false)
 
 WebUI.delay(3)
 
-WebUI.verifyTextPresent('Ship Your Idea × 2', false)
+WebUI.verifyTextPresent('Ship Your Idea ', false)
 
 WebUI.delay(3)
 

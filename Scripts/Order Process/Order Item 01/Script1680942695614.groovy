@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Account/Login successfully'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop'))
+WebUI.enhancedClick(findTestObject('Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop'))
 
 SamplePageTitle = WebUI.getWindowTitle()
 
@@ -27,9 +27,9 @@ WebUI.verifyMatch(SamplePageTitle, 'Katalon Shop – Katalon Ecommerce', false)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting'))
+WebUI.enhancedClick(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting'))
 
-WebUI.click(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest'))
+WebUI.enhancedClick(findTestObject('Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest'))
 
 WebUI.delay(5)
 

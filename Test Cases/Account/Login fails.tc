@@ -8,7 +8,7 @@
       <properties>
          <entry>
             <key>azure.testcase.ids</key>
-            <value>9</value>
+            <value></value>
          </entry>
       </properties>
       <type>TESTCASE</type>

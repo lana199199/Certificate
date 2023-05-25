@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 113.0.5672.126,,,2023-05-24 07:57:32,2023-05-24 07:58:22,49.931s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,Chrome 113.0.5672.126,,,2023-05-24 07:57:33,2023-05-24 07:58:22,49.450s,FAILED
+Start listener action : enableSauceLabs,Chrome 113.0.5672.126,,,2023-05-24 07:57:33,2023-05-24 07:57:33,0.012s,PASSED
+"openBrowser("""")",Chrome 113.0.5672.126,,,2023-05-24 07:57:33,2023-05-24 07:57:41,8.116s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 113.0.5672.126,,,2023-05-24 07:57:41,2023-05-24 07:57:51,9.255s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 113.0.5672.126,,,2023-05-24 07:57:51,2023-05-24 07:57:57,5.968s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 113.0.5672.126,,,2023-05-24 07:57:57,2023-05-24 07:58:03,6.961s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Chrome 113.0.5672.126,,,2023-05-24 07:58:03,2023-05-24 07:58:07,3.525s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Chrome 113.0.5672.126,,,2023-05-24 07:58:07,2023-05-24 07:58:13,6.204s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Chrome 113.0.5672.126,,,2023-05-24 07:58:13,2023-05-24 07:58:17,3.319s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Chrome 113.0.5672.126,,,2023-05-24 07:58:17,2023-05-24 07:58:22,5.692s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 113.0.5672.126,,,2023-05-24 07:58:22,2023-05-24 07:58:22,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 113.0.5672.126,,,2023-05-24 07:58:22,2023-05-24 07:58:22,0.003s,PASSED

@@ -9,6 +9,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover",
+      "brokenLocator": "//article[@id\u003d\u0027post-10\u0027]/div/div/div/p/strong",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//strong",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_My account  Katalon Shop/input__username",
+      "brokenLocator": "//input[@id\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_My account  Katalon Shop/input__username_position.png"
     }
   ]
 }

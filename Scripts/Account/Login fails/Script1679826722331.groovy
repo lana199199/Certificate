@@ -24,6 +24,8 @@ WebUI.navigateToUrl('https://cms.demo.katalon.com/my-account/')
 
 WebUI.click(findTestObject('Page_My account  Katalon Shop/input__username'))
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.setText(findTestObject('Page_My account  Katalon Shop/input__username'), GlobalVariable.username)
 
 WebUI.click(findTestObject('Page_My account  Katalon Shop/input__password'))
@@ -39,13 +41,14 @@ WebUI.getText(findTestObject('Object Repository/Page_My account  Katalon Shop/Pa
 
 //verify the text without considering its format 
 String responseString = 'KatalonLover'
+
 String expectedString = 'katalonlover'
 
 if (responseString.toUpperCase() == expectedString) {
     println('Response is correct')
 } else {
     println('Response is not correct')
-
 }
 
 WebUI.closeBrowser()
+

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 114.0.5735.90,,,2023-06-02 09:23:05,2023-06-02 09:25:10,2m - 4.550s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,Chrome 114.0.5735.90,,,2023-06-02 09:23:06,2023-06-02 09:23:49,43.465s,PASSED
+"openBrowser("""")",Chrome 114.0.5735.90,,,2023-06-02 09:23:06,2023-06-02 09:23:12,6.401s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 114.0.5735.90,,,2023-06-02 09:23:12,2023-06-02 09:23:20,7.180s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 114.0.5735.90,,,2023-06-02 09:23:20,2023-06-02 09:23:23,3.731s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 114.0.5735.90,,,2023-06-02 09:23:23,2023-06-02 09:23:30,6.846s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Chrome 114.0.5735.90,,,2023-06-02 09:23:30,2023-06-02 09:23:34,3.349s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Chrome 114.0.5735.90,,,2023-06-02 09:23:34,2023-06-02 09:23:40,6.323s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Chrome 114.0.5735.90,,,2023-06-02 09:23:40,2023-06-02 09:23:43,3.180s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Chrome 114.0.5735.90,,,2023-06-02 09:23:43,2023-06-02 09:23:49,5.710s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:23:49,0.168s,PASSED
+"responseString = ""KatalonLover""",Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:23:49,0.000s,PASSED
+"expectedString = ""katalonlover""",Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:23:49,0.001s,PASSED
+if (responseString.toUpperCase() == expectedString),Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:23:49,0.006s,PASSED
+else,Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:23:49,0.012s,PASSED
+closeBrowser(),Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:23:49,0.118s,PASSED
+,,,,,,,
+Test Cases/Account/Log out,Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:25:10,1m - 20.701s,FAILED
+"callTestCase(findTestCase(""Account/Login fails""), [:], STOP_ON_FAILURE)",Chrome 114.0.5735.90,,,2023-06-02 09:23:49,2023-06-02 09:25:09,1m - 20.201s,PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Log out""), STOP_ON_FAILURE)",Chrome 114.0.5735.90,,,2023-06-02 09:25:09,2023-06-02 09:25:10,0.279s,FAILED

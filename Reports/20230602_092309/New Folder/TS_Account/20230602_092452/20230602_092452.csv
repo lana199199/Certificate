@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 114.0.5735.90,,,2023-06-02 09:25:16,2023-06-02 09:28:34,3m - 17.379s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,Chrome 114.0.5735.90,,,2023-06-02 09:25:17,2023-06-02 09:26:05,48.340s,PASSED
+"openBrowser("""")",Chrome 114.0.5735.90,,,2023-06-02 09:25:18,2023-06-02 09:25:26,8.571s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 114.0.5735.90,,,2023-06-02 09:25:26,2023-06-02 09:25:34,7.143s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 114.0.5735.90,,,2023-06-02 09:25:34,2023-06-02 09:25:37,3.828s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 114.0.5735.90,,,2023-06-02 09:25:37,2023-06-02 09:25:44,7.051s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Chrome 114.0.5735.90,,,2023-06-02 09:25:44,2023-06-02 09:25:48,3.644s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Chrome 114.0.5735.90,,,2023-06-02 09:25:48,2023-06-02 09:25:55,6.668s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Chrome 114.0.5735.90,,,2023-06-02 09:25:55,2023-06-02 09:25:58,3.316s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Chrome 114.0.5735.90,,,2023-06-02 09:25:58,2023-06-02 09:26:05,6.961s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:26:05,0.196s,PASSED
+"responseString = ""KatalonLover""",Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:26:05,0.001s,PASSED
+"expectedString = ""katalonlover""",Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:26:05,0.000s,PASSED
+if (responseString.toUpperCase() == expectedString),Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:26:05,0.004s,PASSED
+else,Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:26:05,0.012s,PASSED
+closeBrowser(),Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:26:05,0.117s,PASSED
+,,,,,,,
+Test Cases/Account/Log out,Chrome 114.0.5735.90,,,2023-06-02 09:26:05,2023-06-02 09:28:34,2m - 28.192s,FAILED
+"callTestCase(findTestCase(""Account/Login fails""), [:], STOP_ON_FAILURE)",Chrome 114.0.5735.90,,,2023-06-02 09:26:06,2023-06-02 09:28:34,2m - 27.869s,FAILED
+Video,Chrome 114.0.5735.90,,,2023-06-02 09:28:34,2023-06-02 09:28:34,0.001s,PASSED

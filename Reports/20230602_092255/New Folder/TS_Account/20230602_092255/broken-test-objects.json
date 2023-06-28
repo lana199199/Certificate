@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover",
+      "brokenLocator": "//article[@id\u003d\u0027post-10\u0027]/div/div/div/p/strong",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//strong",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230602_092255/New Folder/TS_Account/20230602_092255/Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover_position.png"
+    }
+  ]
+}

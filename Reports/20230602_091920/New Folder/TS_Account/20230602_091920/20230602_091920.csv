@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 114.0.0.0,,,2023-06-02 09:19:31,2023-06-02 09:20:40,1m - 9.796s,FAILED
+,,,,,,,
+Test Cases/Account/Log out,Chrome 114.0.0.0,,,2023-06-02 09:19:31,2023-06-02 09:20:40,1m - 9.393s,FAILED
+"callTestCase(findTestCase(""Account/Login fails""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-02 09:19:31,2023-06-02 09:20:40,1m - 8.755s,PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Log out""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-02 09:20:40,2023-06-02 09:20:40,0.222s,FAILED

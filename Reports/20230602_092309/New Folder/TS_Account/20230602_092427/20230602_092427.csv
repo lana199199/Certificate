@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,,,,2023-06-02 09:24:49,2023-06-02 09:24:56,6.587s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,,,,2023-06-02 09:24:50,2023-06-02 09:24:53,3.264s,FAILED
+"openBrowser("""")",,,,2023-06-02 09:24:51,2023-06-02 09:24:53,2.295s,FAILED
+,,,,,,,
+Test Cases/Account/Log out,,,,2023-06-02 09:24:53,2023-06-02 09:24:56,2.713s,FAILED
+"callTestCase(findTestCase(""Account/Login fails""), [:], STOP_ON_FAILURE)",,,,2023-06-02 09:24:54,2023-06-02 09:24:56,2.363s,FAILED

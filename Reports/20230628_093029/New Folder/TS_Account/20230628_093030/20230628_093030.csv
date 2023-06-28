@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 114.0.5735.198,,,2023-06-28 09:30:42,2023-06-28 09:31:30,48.275s,PASSED
+,,,,,,,
+Test Cases/Account/Login fails,Chrome 114.0.5735.198,,,2023-06-28 09:30:43,2023-06-28 09:31:30,47.843s,PASSED
+Start listener action : enableSauceLabs,Chrome 114.0.5735.198,,,2023-06-28 09:30:43,2023-06-28 09:30:43,0.037s,PASSED
+"openBrowser("""")",Chrome 114.0.5735.198,,,2023-06-28 09:30:43,2023-06-28 09:30:54,10.779s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 114.0.5735.198,,,2023-06-28 09:30:54,2023-06-28 09:31:01,7.447s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 114.0.5735.198,,,2023-06-28 09:31:01,2023-06-28 09:31:05,3.603s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 114.0.5735.198,,,2023-06-28 09:31:05,2023-06-28 09:31:12,6.640s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__password""))",Chrome 114.0.5735.198,,,2023-06-28 09:31:12,2023-06-28 09:31:15,3.312s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__password""), password)",Chrome 114.0.5735.198,,,2023-06-28 09:31:15,2023-06-28 09:31:21,6.311s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__rememberme""))",Chrome 114.0.5735.198,,,2023-06-28 09:31:21,2023-06-28 09:31:24,3.169s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/button_Log in""))",Chrome 114.0.5735.198,,,2023-06-28 09:31:24,2023-06-28 09:31:30,5.760s,PASSED
+"getText(findTestObject(""Object Repository/Page_My account  Katalon Shop/Page_My account  Katalon Shop/strong_KatalonLover""), STOP_ON_FAILURE)",Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.149s,PASSED
+"responseString = ""KatalonLover""",Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.001s,PASSED
+"expectedString = ""katalonlover""",Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.000s,PASSED
+if (responseString.toUpperCase() == expectedString),Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.003s,PASSED
+else,Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.009s,PASSED
+closeBrowser(),Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.128s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 114.0.5735.198,,,2023-06-28 09:31:30,2023-06-28 09:31:30,0.001s,PASSED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,Chrome 114.0.0.0,,,2023-06-28 09:22:21,2023-06-28 09:22:43,22.066s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,Chrome 114.0.0.0,,,2023-06-28 09:22:22,2023-06-28 09:22:43,21.689s,FAILED
+Start listener action : enableSauceLabs,Chrome 114.0.0.0,,,2023-06-28 09:22:22,2023-06-28 09:22:22,0.040s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-28 09:22:22,2023-06-28 09:22:31,9.244s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/my-account/"")",Chrome 114.0.0.0,,,2023-06-28 09:22:31,2023-06-28 09:22:36,4.877s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/input__username""))",Chrome 114.0.0.0,,,2023-06-28 09:22:36,2023-06-28 09:22:40,3.610s,PASSED
+"setText(findTestObject(""Page_My account  Katalon Shop/input__username""), username)",Chrome 114.0.0.0,,,2023-06-28 09:22:40,2023-06-28 09:22:43,3.438s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 114.0.0.0,,,2023-06-28 09:22:43,2023-06-28 09:22:43,0.002s,PASSED

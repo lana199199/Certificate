@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Order,Edge Chromium 112,,,2023-06-07 12:28:28,2023-06-07 12:31:24,2m - 56.318s,FAILED
+,,,,,,,
+Test Cases/Order Process/Order Item 01,Edge Chromium 112,,,2023-06-07 12:28:28,2023-06-07 12:30:12,1m - 43.683s,PASSED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Edge Chromium 112,,,2023-06-07 12:28:29,2023-06-07 12:29:25,56.156s,PASSED
+"enhancedClick(findTestObject(""Page_My account  Katalon Shop/Page_My account  Katalon Shop/a_Shop""))",Edge Chromium 112,,,2023-06-07 12:29:25,2023-06-07 12:29:31,6.217s,PASSED
+SamplePageTitle = getWindowTitle(),Edge Chromium 112,,,2023-06-07 12:29:31,2023-06-07 12:29:31,0.278s,PASSED
+"verifyMatch(SamplePageTitle, ""Katalon Shop – Katalon Ecommerce"", false)",Edge Chromium 112,,,2023-06-07 12:29:31,2023-06-07 12:29:32,0.031s,PASSED
+delay(5),Edge Chromium 112,,,2023-06-07 12:29:32,2023-06-07 12:29:37,5.046s,PASSED
+"enhancedClick(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/span_Default sorting""))",Edge Chromium 112,,,2023-06-07 12:29:37,2023-06-07 12:29:41,4.046s,PASSED
+"enhancedClick(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/sort by latest""))",Edge Chromium 112,,,2023-06-07 12:29:41,2023-06-07 12:29:47,6.386s,PASSED
+delay(5),Edge Chromium 112,,,2023-06-07 12:29:47,2023-06-07 12:29:52,5.016s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 3)",Edge Chromium 112,,,2023-06-07 12:29:52,2023-06-07 12:29:53,0.684s,PASSED
+"enhancedClick(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""))",Edge Chromium 112,,,2023-06-07 12:29:53,2023-06-07 12:30:00,7.133s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Edge Chromium 112,,,2023-06-07 12:30:00,2023-06-07 12:30:01,0.862s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/btn_Next""))",Edge Chromium 112,,,2023-06-07 12:30:01,2023-06-07 12:30:05,3.862s,PASSED
+"verifyEqual(""2"", ""2"")",Edge Chromium 112,,,2023-06-07 12:30:05,2023-06-07 12:30:05,0.037s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Ship Your Idea  Katalon Shop/button_Add to cart""))",Edge Chromium 112,,,2023-06-07 12:30:05,2023-06-07 12:30:10,5.603s,PASSED
+closeBrowser(),Edge Chromium 112,,,2023-06-07 12:30:10,2023-06-07 12:30:12,1.888s,PASSED
+,,,,,,,
+Test Cases/Order Process/Check order 02,Edge Chromium 112,,,2023-06-07 12:30:12,2023-06-07 12:31:24,1m - 12.198s,FAILED
+"callTestCase(findTestCase(""Account/Login successfully""), [:], STOP_ON_FAILURE)",Edge Chromium 112,,,2023-06-07 12:30:12,2023-06-07 12:31:06,53.388s,PASSED
+"click(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/Page_Cart  Katalon Shop/a_Cart""))",Edge Chromium 112,,,2023-06-07 12:31:06,2023-06-07 12:31:12,5.728s,PASSED
+SamplePageTitle = getWindowTitle(),Edge Chromium 112,,,2023-06-07 12:31:12,2023-06-07 12:31:12,0.254s,PASSED
+"verifyMatch(SamplePageTitle, ""Cart – Katalon Shop"", false)",Edge Chromium 112,,,2023-06-07 12:31:12,2023-06-07 12:31:12,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Page_My account  Katalon Shop/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 5)",Edge Chromium 112,,,2023-06-07 12:31:12,2023-06-07 12:31:22,10.455s,PASSED
+"verifyTextPresent(""Ship Your Idea"", false)",Edge Chromium 112,,,2023-06-07 12:31:22,2023-06-07 12:31:24,2.104s,FAILED

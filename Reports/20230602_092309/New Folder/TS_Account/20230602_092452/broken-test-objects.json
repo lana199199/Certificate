@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_My account  Katalon Shop/input__username",
+      "brokenLocator": "//input[@id\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230602_092309/New Folder/TS_Account/20230602_092452/Object Repository/Page_My account  Katalon Shop/input__username_position.png"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Account,,,,2023-06-21 12:01:41,2023-06-21 12:02:10,29.178s,FAILED
+,,,,,,,
+Test Cases/Account/Login fails,,,,2023-06-21 12:01:41,2023-06-21 12:02:10,28.628s,FAILED
+"openBrowser("""")",,,,2023-06-21 12:01:42,2023-06-21 12:02:10,27.983s,FAILED
